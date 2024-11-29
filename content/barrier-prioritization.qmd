@@ -19,68 +19,44 @@ source("Rscripts/table_formatting.R")
 
 # Barrier Prioritization {-}
 
+## Maqmekwitk (St. Croix) Watershed Barrier Prioritization Summary {-}
 
-## <Watershed name> Barrier Prioritization Summary {-}
+The primary goal of Reconnecting our Rivers is to restore connectivity to Plamu and Kataq habitat in the Maqmekwitk watershed. To achieve this goal, the plan will guide which structures to assess in the field, and subsequently, which barriers to address (i.e., remove or replace the barrier, or temporarily add fish passage). To maximize conservation efforts/resources towards achieving this goal, it is imperative to identify a suite of barriers that, if addressed, will provide the largest, most important contribution towards restored connectivity of salmon and eel habitat. The following section outlines the ranking process to identify the list of barriers.
 
-The primary conservation outcome of the WCRP will be ... To achieve this, it is necessary to prioritize and identify a suite of barriers that, if remediated, will provide access to a minimum of `r gain` km of spawning or rearing habitat (@tbl-gainReqs):
+## Field Assessment Ranking Process {-}
 
+After all existing data and knowledge are collated for known and modelled crossings, an iterative ranking process was conducted. The ranking process is primarily used to guide field assessments and maximize efficiency in ground truthing data/knowledge inputs and model outputs, while providing a secondary purpose to evaluate the relative key habitat gains of confirmed barriers in the watershed. Field assessments can include an assessment of either the passability status of a structure (whether fish can pass upstream, and to what degree), whether the upstream habitat is suitable for the focal species, and whether there are other undocumented anthropogenic or natural barriers upstream or downstream. First, structures are grouped into ‘sets’. Sets are identified by maximizing the key habitat gain for barriers in the same tributary system. If adding a structure to a set reduces the gain-per-barrier (i.e., the total habitat gain of the set divided by the number of barriers in the set), then it is excluded and will be considered part of another set. This results in sets ranging from one to five structures (see Appendix A for more details on this process).  Then, each set is ranked by its potential to contribute to restoring the overall habitat connectivity. The higher a set is ranked, the more potential contribution it makes to restoring the overall habitat connectivity, therefore making the set a higher priority for field assessment. By assessing the passability status and upstream habitat of the top-ranked sets, we close knowledge gaps with the greatest influence on the overall connectivity model results.  
 
-```{python echo=FALSE}
-#| label: tbl-gainReqs
-#| tbl-cap: "SAMPLE Spawning and rearing habitat connectivity gain requirements to meet WCRP goals in <watershed>. The measures of currently accessible and total habitat values are derived from the Intrinsic Potential habitat model."
-#| warning: false
-#| echo: false
+Sets are ranked by a combination of two factors: 
 
-# Variables to API calls
-connect = api.watershed_connectivity("ALL")[0]
-total = round(api.watershed_connectivity("ALL")[1],2) #total km in HORS
-access = round(api.watershed_connectivity("ALL")[2],2)
-gain = round((total*0.96)-access,2)
+1. The **long-term potential** impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating and ranking sets by the amount of total upstream key habitat (i.e., ignoring any additional upstream sets). This ranking identifies sets that would have the greatest long-term potential gain in habitat connectivity once any subsequent upstream barriers are addressed. 
 
-# Data frame with table info
-df = pd.DataFrame({"Habitat Type":["Spawning and Rearing"],
-                   "Currently accessible (km)":[str(access)],
-                   "Total": [str(total)],
-                   "Current Connectivity Status":[str(connect)+"%"],
-                   "Goal": ["96%"],
-                   "Gain required (km)": [str(gain)]
-                   })
-                   
-# Apply table styling
-styled_df = df.style.hide().set_properties(**{'text-align': 'left'})
-# header styling
-table_styles = [{
-       'selector': 'th',
-       'props': [('background-color', '#008270'),('text-align', 'left')]
-   }]
-styled_df.set_table_styles(table_styles)
+2. The **immediate potential** impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating the amount of functional upstream habitat (i.e., key habitat between that set and the next upstream set of structures). Sets were then ranked by functional upstream habitat amount in tiers, where sets with no downstream sets were ranked first, then sets with one downstream set, and so on. This ranking identifies sets that have the greatest immediate potential gain in habitat by prioritizing sets that do not rely on rehabilitation of downstream or upstream sets to realize these gains. 
 
-```
+An overall ranking for each set was produced as a composite of the long-term and immediate potential gain ranks to prioritize sets that maximize long-term and immediate potential to improve key habitat connectivity in the watershed. All structures in the watershed (excluding those confirmed as passable) were ranked and a subset of those structures were selected by the planning team to assess in the 2023 field season.  
 
-The barrier prioritization analysis ranked barriers by [...] A longer list of barriers is needed due to the inherent assumptions in the connectivity model, habitat model, and gaps in available data. Barriers that have been modelled (i.e., points where streams and road/rail networks intersect) are assumed to be barriers until field verification is undertaken and structures that have been assessed as "potential" barriers (e.g., may be passable at certain flow levels or for certain life history stages) require further investigation before a definitive remediation decision is made. Additionally, the habitat model identifies stream segments that have the potential to support spawning or rearing habitat for target species but does not attempt to quantify habitat quality or suitability (see Appendix B), which will require additional field verification once barrier assessments have completed.Data deficient structures represents structures that are a priority to evaluate further through barrier assessment and habitat confirmations because some structures will likely be passable, others will not be associated with usable habitat, and others may not be feasible to remediate because of logistic considerations (@tbl-deficient). Some barriers were moved forward to the "priority barrier list" (see @tbl-priority) and others were eliminated from consideration due to one or more of the considerations discussed above (see @tbl-remove). The priority barrier list represents structures that were confirmed to be partial or full barriers to fish passage and that block access to confirmed habitat. Barriers on the priority list were reviewed by planning team members and selected for inclusion for proactive pursual of remediation.  For more details on the barrier prioritization model, please see @Mazany-Wright2021-rz.
+## Summary {-}
 
+Following field assessments, structures are placed on one of five possible lists:  
+
+1. **Priority barriers list** – the structure is confirmed as 0, 25, 50, or 75% passable, has key habitat confirmed to exist upstream, and is considered actionable by the planning team (i.e., action items will be identified to address passability of the barrier). Depending on the barrier, owner, financial constraints, and quality of upstream habitat, the action may be to leave to end of life cycle before reviewing again, remove and decommission the road, replace with a new passable structure, or modify to temporarily restore connectivity (e.g., fish ladder or baffles installed ({numref}Table2). 
+
+2. **Assessed structures that remain data deficient list** – some form of field assessment has been completed on the structure, but further investigation is required to confirm either the passability status or upstream habitat ({numref}Table3). 
+
+3. **Rehabilitated barriers list** – priority barriers that have been addressed (either through removal, replacement, or temporary fish passage improvement projects ({numref}Table 4). 
+
+4. **Non-actionable barriers list** – the structure is confirmed to be a barrier to fish passage and have some amount/quality of habitat upstream, but the planning team will not identify actions to address passability of the barrier because of logistic considerations (e.g., financial costs), short habitat gain, or the upstream habitat is of poor quality or unsuitable in its present condition to support key life stages of the focal species (Appendix B). 
+
+5. **Excluded structures list** – the structure is excluded from further consideration in subsequent ranking and work planning because the structure is confirmed passable (e.g., bridge), not present, or there is no key habitat upstream (Appendix B).  
 
 ```{r priority, echo = FALSE, results = 'asis'}
 #| label: tbl-priority
-#| tbl-cap: "SAMPLE priority barrier list, which includes barriers that have undergone field assessment, been reviewed by the planning team, and selected to pursue for proactive remediation."
+#| tbl-cap: "The Maqmekwitk watershed priority barrier list, which includes barriers that have undergone field assessment, been reviewed by the planning team, and selected to be addressed (whether removed, replaced with a passable structure, or provided temporary fish passage)."
 #| warning: false
 #| echo: false
 
-data <- read.csv("data/priority_barriers_for_rehabilitation_table.csv", check.names=FALSE)
+data <- read.csv("data/priority_barriers.csv", check.names=FALSE)
 prior_num <- nrow(data)
-ft <- flextable(data)
-ft <- format_flextable(ft)
-ft
-```
-
-```{r deficient, echo = FALSE, results = 'asis'}
-#| label: tbl-deficient
-#| tbl-cap: "Assessed structures that remain data deficient"
-#| warning: false
-#| echo: false
-
-data <- read.csv("data/assessed_data_deficient_structures_table.csv", check.names=FALSE)
-inter_num <- nrow(data)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft
@@ -88,7 +64,7 @@ ft
 
 ```{r remove, echo = FALSE, results = 'asis'}
 #| label: tbl-remove
-#| tbl-cap: "List of barriers that were prioritized as part of the first iteration but were removed from consideration for pursual of proactive remediation following discussion with the planning team due to these structures not existing, being passable, not be associated with usable habitat, or deemed not feasible to remediate because of logistic considerations."
+#| tbl-cap: "Assessed structures that remain data deficient."
 #| warning: false
 #| echo: false
 
@@ -99,16 +75,9 @@ ft <- format_flextable(ft)
 ft
 ```
 
-
-Out of the `r inter_num` on the intermediate list, 16 require further field assessment before selection as a final barrier to pursue for remediation: 
-
-
-There are currently `r prior_num` barriers on the priority barrier list, which will be pursued for proactive remediation to achieve the connectivity goals in this plan:
-
-
 ```{r rehab, echo = FALSE, results = 'asis'}
 #| label: tbl-rehab
-#| tbl-cap: "Rehabilitated structures."
+#| tbl-cap: "Rehabilitated structures in the Maqmekwitk watershed."
 #| warning: false
 #| echo: false
 

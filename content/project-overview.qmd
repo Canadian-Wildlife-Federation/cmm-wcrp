@@ -31,176 +31,97 @@ sum_road <- api$sum_road
 
 ## Plan Purpose, Approach, and Scope {-}
 
-The following Watershed Connectivity Remediation Plan (WCRP) ...
-
-WCRPs are long-term, actionable plans that blend local stakeholder and rightsholder knowledge with innovative GIS analyses to gain a shared understanding of where remediation efforts will have the greatest benefit for <species>. The planning process is inspired by the [Conservation Standards](https://cmp-openstandards.org/wp-content/uploads/2020/07/CMP-Open-Standards-for-the-Practice-of-Conservation-v4.0.pdf) (v.4.0), which is a conservation planning framework that allows planning teams to systematically identify, implement, and monitor strategies to apply the most effective solutions to high priority conservation problems.
-
-The planning team compiled existing barrier location and assessment data, habitat data, and previously identified priorities, and combined this with local and Indigenous knowledge to create a strategic watershed-scale plan to improve connectivity. To expand on this work the WCRP planning team applied the WCRP planning framework to define the "thematic" scope of freshwater connectivity and refine the "geographic" scope to identify only those portions of the watershed where barrier prioritization will be conducted, and subsequent remediation efforts will take place. Additionally, the team selected target fish species, assessed their current connectivity status in the watershed, defined concrete goals for gains in connectivity, and developed a priority list of barriers for remediation to achieve those goals. While the current version of this plan is based on the best-available information at the time of publishing, WCRPs are intended to be “living plans” that are updated regularly as new information becomes available, or if local priorities and contexts change. As such, this document should be interpreted as a current snap-shot in time, and future iterations of this WCRP will build upon the material presented in this plan to continuously improve barrier remediation for migratory fish in <watershed>. For more information on how WCRPs are developed, see @Mazany-Wright2021-hs. 
+The following Reconnecting our Rivers project represents the culmination of a collaborative planning effort with the Confederacy of Mainland Mi’kmaq (CMM) and the Canadian Wildlife Federation (CWF). The overall aim is to build meaningful partnerships, reduce the threat of aquatic barriers to diadromous fish and the livelihoods that they support. This plan will identify priority actions that CMM, CWF, and other project partners propose to undertake between 2023-2033 to preserve and restore fish connectively in the Maqmekwitk (St. Croix) watershed, with additional watersheds being added in future years (including Shubenacadie and Stewiacke River). This will be done through addressing physical barriers to fish passage. This watershed connectivity plan will be shared with local First Nations, Fisheries and Oceans Canada (DFO), the NS Government, NGOs, and local stakeholders to inform directed efforts to improve fish productivity and diversity in these watersheds.  
 
 ## Vision Statement {-}
 
-Vision statement here
+Healthy, well-connected rivers within the Maqmekwitk watershed support populations of migratory fish including Plamu (Atlantic Salmon) and Kataq (American Eel), improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi'kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of anthropogenic aquatic barriers, improving the resiliency of the watershed for the benefit and appreciation of all. 
 
 ## Project Scope {-}
 
-Connectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic organisms to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation @Seliger2018-be. Though each of these factors are important when considering the health of a watershed, for the purposes of this WCRP the term "connectivity" is defined as the degree to which aquatic organisms can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including anthropogenic infrastructure such as dams, weirs, and stream crossings, and natural features such as waterfalls and debris flows. This plan is intended to focus on the direct remediation and prevention of localized, physical barriers instead of the broad land-use patterns that are causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this WCRP is addressing barriers to both longitudinal connectivity (i.e., along the upstream-downstream plane) and lateral connectivity (i.e., connectivity between the mainstem and adjacent riparian wetlands and floodplains) due to the importance of maintaining fish passage to spawning, rearing, and overwintering habitat in the watershed. 
+Connectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic organisms to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation @Seliger2018-be. Though each of these factors are important when considering the health of a watershed, for the purpose of this project the term "connectivity" is defined as the degree to which aquatic organisms can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including anthropogenic infrastructure such as dams and stream crossings, and natural features such as waterfalls. This plan will focus on the direct rehabilitation and prevention of localized, physical barriers instead of the broad, land-use patterns causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this watershed connectivity plan is addressing barriers to longitudinal connectivity (i.e., along the upstream-downstream plane) due to the importance of maintaining fish passage to spawning and rearing habitat in the watershed. 
 
-![SAMPLE The primary geographic scope — the Horsefly River watershed — located in the Fraser River system.](images/geo-scope-hors.png){#fig-geoscope}
+## Focal species
 
+Focal species represent the ecologically and culturally important species for which habitat connectivity is being directly conserved and/or restored in the watershed. The planning team selected three target species: Plamu (Atlantic Salmon) and Kataq (American Eel). The selection of these key species was driven primarily by local conservation goals. 
 
-The primary geographic scope of this WCRP is ...
+### Atlantic Salmon | Plamu | Salmo salar 
 
-```{r targspec, echo = FALSE, results = 'asis'}
-#| label: tbl-targspec
-#| tbl-cap: "SAMPLE Target fish species in the Horsefly River watershed. The Secwepemctsín and Western common and scientific species names are provided."
-#| warning: false
+Atlantic Salmon are anadromous fishes, meaning mature adults spawn in freshwater and juveniles rear in freshwater before undergoing a process called smoltification where they migrate out to the ocean for 1-3+ years before returning to the freshwater to repeat this process. Due to this migratory process, salmon require unimpeded access between the ocean and freshwater habitats to complete their life cycle.  
 
-library("flextable")
+Atlantic Salmon spawn in the pool-riffle transition zones of the main stem and larger tributaries of a river @deGaudemar2000; @Finstad2010. Within these stretches, they seek out the tails of pools, where substrate size allows for females to excavate a space to deposit the eggs to incubate below gravel beds. Fast flowing, well oxygenated water with minimal fine sediments helps to maximize successful embryo development. Atlantic Salmon juveniles (fry and parr) rear in habitat that is deeper and slower, to facilitate their weaker swimming and predation capabilities. Water depth, velocity, and substrate size tend to increase with parr as they increase in size and age. Shelter, in the form of large rocks, boulders, or overhead cover provide crucial refuge for overwintering habitat. Channel gradients most typically associated with these preferred spawning and rearing habitats range from 0.12 to 25%; with highest concentrations below 3% @Amiro1993.  
 
-data <- read.csv("data/species_names.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- bg(ft, bg = "#008270", part = "header")
-ft <- color(ft, color = "white", part = "header")
-ft <- set_caption(ft)
-#ft <- autofit()
-#ft |> autofit() 
-```
+Salmon in the St. Croix watershed are a part of the Inner Bay of Fundy population that was last assessed by Committee on the Status of Endangered Wildlife in Canada (COSEWIC) as Endangered in 2010 @Cosewic2010 and has been listed on the Schedule 1 of the Species at Risk Act since 2003.  
 
+### American Eel | Kataq | Anguilla rostrata 
 
-## Target species {-}
+American Eel are catadromous species, meaning they spawn in the Sargasso Sea and drift with the ocean currents towards the continental shelf as glass eels. Elvers then continue migrating towards freshwater tributaries to feed and mature, although some populations have been known to stay in the estuaries and bays or move between freshwater and estuary habitat over their life cycle. Their ability to tolerate a wide variety of salinities and temperature thresholds allows them to occupy a variety of habitat types.  
 
-Target species represent the ecologically and culturally important species for which habitat connectivity is being conserved and/or restored in the watershed. The selection of these target species was driven primarily by the targets species of the primary fund supporting this planning work. 
+American Eel are widely distributed throughout Nova Scotia rivers, including the St. Croix, and occupy freshwater habitat and estuary habitat for feeding (on small fish, mollusks, insects, and crustaceans) and growth. American Eel were assessed as Threatened by COSEWIC in 2012 @Cosewic2012. 
 
-### SAMPLE Anadromous Salmon {-}
+## Geographic Scope
 
-Anadromous salmon are cultural and ecological keystone species that contribute to productive ecosystems by contributing marine-derived nutrients to the watershed and forming an important food source for other species. Salmon species are sacred to the NStQ, having sustained life, trading economies, and culture since time immemorial (@WLFN2021Patterns, @XFN2021History, N. Singi pers. comm.). The stewardship of the resources and fisheries in their traditional territories are imbued in the spirit of the NStQ through a symbiotic relationship based on respect – the NStQ never take more salmon than is needed and there is no waste. The entirety of the salmon is used - smoked and dried to sustain the NStQ through the winter months, the roe harvested for consumption, salmon oil rendered to be stored and traded, and the skin used to store the oil (@Wilson1998-kb, @XFN2021History, N. Singi pers. comm.). The salmon runs begin to return to the Horsefly River watershed in early August, and the NStQ traditionally celebrate and feast at this time. The harvest of the salmon strengthens the cultural connection to the land and the waters, providing an important food source for communities and the opportunity to pass knowledge and ceremony to future generations through fishing and fish processing (@WLFN2021Patterns`, @XFN2021History). 
+The primary geographic scope of this watershed connectivity plan is the Maqmekwitk (St. Croix), which is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). The Maqmekwitk has a total drainage area of 746.7 km2 (@fig-geoscope). 
 
-Anadromous salmon populations in the Horsefly River watershed have declined significantly in the past few decades, with the populations of all three focal species being listed as Threatened or Endangered by the Committee On the Status of Endangered Wildlife In Canada (COSEWIC). This has been exacerbated by the Big Bar landslide on the Fraser River in 2019, leading the four NStQ communities to voluntarily close the salmon fishery from 2019-2022. The stewardship of their waters continues through the work of the NStQ member communities and the Northern Shuswap Tribal Council. See Appendix A for maps of modelled anadromous salmon habitat in the Horsefly River Watershed. 
+![The primary geographic scope, the Maqmekwitk (St. Croix) watershed.](images/geo-scope-cmm.png){#fig-geoscope}
 
-### SAMPLE Chinook Salmon | Kekèsu | Oncorhynchus tshawytscha  {-}
-```{r chinook, echo = FALSE, results = 'asis'}
-#| label: tbl-chinook
-#| tbl-cap: "Chinook Salmon population assessments in the Horsefly River watershed. Conservation Unit assessments were undertaken by the [Pacific Salmon Foundation](https://www.salmonexplorer.ca/\\#!/fraser/chinook/middle-fraser-river-spring-5-2) ([2020](https://salmonwatersheds.ca/libraryfiles/lib_459.pdf)). Designated Unit assessments were undertaken by [COSEWIC](https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/chinook-salmon-2018.html) (2018)."
-#| warning: false
+The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of anthropogenic barriers (@fig-2). Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn). While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). These maps were explored by the planning team to incorporate additional local knowledge, ensure accuracy, and finalize the criteria used to define naturally accessible waterbodies. The new geographic scope formed the foundation for all subsequent analyses and planning steps. 
 
-library("flextable")
-
-data <- read.csv("data/chinook-pop-assess-hors-psf-2020.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- bg(ft, bg = "#008270", part = "header")
-ft <- color(ft, color = "white", part = "header")
-ft <- set_caption(ft)
-#ft |> autofit() 
-```
-
-```{r echo = FALSE, results = 'asis'}
-library("flextable")
-
-data <- read.csv("data/chinook-pop-assess-hors-cosewic-2018.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- bg(ft, bg = "#008270", part = "header")
-ft <- color(ft, color = "white", part = "header")
-ft <- set_caption(ft)
-#ft |> autofit() 
-
-```
-
-
-Chinook Salmon are the first to return each year, usually in early August @DFO1991-tl, and have the most limited distribution within the watershed. Known spawning occurs in parts of the Horsefly River mainstem above the confluence with the Little Horsefly River and throughout McKinley Creek as far as Elbow Lake (@DFO1991-tl, S. Hocquard, pers. comm.). Important rearing systems include Patenaude Creek, Kroener Creek, Black Creek, Woodjam Creek, Deerhorn Creek, and Wilmot Creek (S. Hocquard, pers. comm.).
-
-
-## Barrier Types {-}
-
-The following table highlights which barrier types pose the greatest threat to <species> in the watershed. The results of this assessment were used to inform the subsequent planning steps, as well as to identify knowledge gaps where there is little spatial data to inform the assessment for a specific barrier type. 
-
-
-
-```{python barriertype, echo=FALSE}
-#| label: tbl-barriertype
-#| tbl-cap: "SAMPLE Connectivity status assessment for linear habitat (spawning and rearing)."
+```{python echo=FALSE}
+#| label: tbl-spn
+#| tbl-cap: "Species-specific stream characteristics used to spatially delineate naturally accessible waterbodies and key habitat for Atlantic Salmon and American Eel."
 #| warning: false
 #| echo: false
-
-
-
-#condition
-def condition(pct):
-    rating = ""
-    if pct < 30 : rating = "Low"
-    elif (pct >= 30) and (pct < 71) : rating = "Medium"
-    elif (pct >= 71) and (pct < 90) : rating = "High"
-    else : rating = "Very High"
-    return rating
-
-#rating classifier
-def rating(threat, barrier):
-    if threat == "extent":
-        if barrier == "DAM":
-            pct = api.barrier_extent(barrier)[1]
-            rating = condition(pct)
-        elif barrier == "ROAD":
-            pct = api.barrier_extent('ROAD, RESOURCE/OTHER')[1] + api.barrier_extent('ROAD, DEMOGRAPHIC')[1]
-            rating = condition(pct)
-    elif threat == "severity":
-        if barrier == "DAM":
-            pct = api.barrier_severity(barrier)[2]
-            rating = condition(pct)
-        elif barrier == "ROAD":
-            pct = api.barrier_severity('ROAD, RESOURCE/OTHER')[2] + api.barrier_severity('ROAD, DEMOGRAPHIC')[2]
-            rating = condition(pct)
-            
-    return rating
-            
-
-df = pd.DataFrame({"Barrier Types":["Road-Stream Crossings","Lateral Barriers","Small Dams(<3m height)","Trail-stream Crossings", "Natural Barriers"],
-                   "Extent":[rating("extent", "ROAD"),"High",rating("extent", "DAM"), "Low", "Medium"],
-                   "Severity":[rating("severity", "ROAD"),"Very High",rating("severity", "DAM"), "Low", "High"],
-                   "Irreversibility":["Medium","High","High", "Medium", "Low"],
-                   "Overall Threat Rating:":["Very High","High","Medium", "Low", "Low"]
-                   }).style.set_properties(subset=["Overall Threat Rating:"], **{'font-weight': 'bold'})
-
-def highlight(val):
+ 
+import numpy as np
+from IPython.display import display
+import pandas as pd
+ 
+data = pd.read_csv('data/species_names.csv', index_col=False, skip_blank_lines=False )
+def fix_table(val):
+    return str(val)
+ 
+def highlighttab7(val):
     red = '#ff0000;'
     yellow = '#ffff00;'
     lgreen = '#92d050;'
     dgreen = '#03853e;'
-
-    if val=="Very High": color = red
-    elif val=="High": color = yellow
-    elif val=="Medium": color = lgreen
-    elif val =="Low": color = dgreen
+ 
+    if val=="Medium" or val=="Need more information": color = yellow
+    elif val=="Very high" or val=="Very effective" : color = dgreen
+    elif val =="High" or val=="Effective": color = lgreen
     else: color = 'white'
     return 'background-color: %s' % color
-
-#df = df.style.set_properties(subset=["Overall Threat Rating"], **{'font-weight': 'bold'})
-
-data = df.applymap(highlight).hide()
-
+ 
+data = data.replace(np.nan, '', regex=True)
+ 
+data = data.applymap(fix_table)
+ 
+data = data.style.applymap(highlighttab7).hide().set_properties(**{'text-align': 'left'})
 data.set_table_styles(
    [{
        'selector': 'th',
        'props': [('background-color', '#008270'),('text-align', 'left')]
    }])
-
+ 
 ```
 
+![Key habitat (channel gradient <3%) and naturally accessible waterbodies (<30% channel gradient and <5m waterfalls) to Plamu (Atlantic Salmon) within the Maqmekwitk (St. Croix) watershed.](images/figure_2.png){#fig-2}
 
-### Small Dams (<3 m height) {-}
+![Key habitat (strahler order 2+) and naturally accessible waterbodies (all stream segments) to Kataq (American Eel) within the Maqmekwitk (St. Croix) watershed.](images/figure_3.png){#fig-3}
 
-There are `r num_dam` mapped small dams on “potentially accessible” stream segments in the watershed, blocking a total of `r km_dam` km (~`r pct_dam`% of the total habitat) of modelled spawning and rearing habitat for <species>, resulting in a <condition> extent. The extent rating of these structures was confirmed by the planning team.
+## Structure Types {-}
 
-### Road-stream Crossings {-}
+The following section highlights three main anthropogenic structure types (aboiteaux, dams, and stream crossings) that fragment key habitat for Plamu and Kataq in the Maqmekwitk watershed.  . 
 
-There are `r sum_road` assessed and modelled crossings located on stream segments with modelled habitat. Demographic road crossings (highways, municipal, and paved roads) block `r demo_km` km of habitat (~`r demo_pct`% of the total blocked habitat), with `r demo_sev`% of assessed crossings having been identified as barriers to fish passage. Resource roads block `r resource_km` km of habitat (~`r resource_pct`%), with `r resource_sev`% of assessed crossings having been identified as barriers.
+### Aboiteaux {-}
 
-### Trail-stream crossings{-}
+There are three modelled aboiteaux in the Maqmekwitk, each located close to the mouth of the Minas Basin. There may be more aboiteaux identified currently as stream crossings, but these will require further knowledge exchange, data review and field assessments to confirm. One aboiteau is a confirmed barrier but is low priority due to the low-quality upstream habitat and difficulty in addressing this barrier type.  
 
-There are ... 
+### Dams {-}
 
-### Lateral Barriers{-}
+There are seven mapped dams that potentially block a combined 154 km of linear salmon and eel habitat in the Maqmekwitk. One smaller dam is located downstream of Fundy Gypsum Mine Yard, one is unknown and requires a field assessment, and five generate hydroelectricity. A set of three hydroelectric dams owned and operated by Minas Energy block the largest proportion of salmon habitat (39%; ~119km of linear habitat) amongst all modelled structure types in the Maqmekwitk watershed. 
 
-There are ...
+### Stream Crossings {-}
 
-### Natural Barriers {-}
-
-Natural barriers to fish passage can include debris flows, log jams, sediment deposits, etc., but natural features that have always restricted fish passage (e.g., waterfalls) are not considered under this barrier type. Natural barriers are difficult to include in a spatial prioritization framework due to their transient nature.
+Stream crossings (i.e., culverts) are the most abundant barrier type in the watershed, with 485 stream crossings located downstream of modelled key habitat for Plamu or Kataq. Stream crossings fully or partially block 385 km of salmon and eel habitat. Detailed assessments by CMM were previously completed on 82 stream crossings located downstream of salmon and eel key habitat. Of these 82 structures, nine were in the top 30 ranked sets ({numref}WCRPtableX).  

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -64,7 +65,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,6 +80,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -94,15 +102,15 @@ div.csl-indent {
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/project-partners.html">Appendices</a></li><li class="breadcrumb-item"><a href="../content/data-methods.html">Data Download and Methods</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/project-partners.html">Appendices</a></li><li class="breadcrumb-item"><a href="../content/data-methods.html">Data Download and Methods</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -110,7 +118,7 @@ div.csl-indent {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/project-partners.html">Appendices</a></li><li class="breadcrumb-item"><a href="../content/data-methods.html">Data Download and Methods</a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Data Download and Methods</h1>
@@ -128,7 +136,7 @@ div.csl-indent {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -171,7 +179,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/connectivity-status.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Connectivity Status Assessment and Goals</span></a>
+ <span class="menu-text">Connectivity Status Assessment</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -230,7 +238,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -248,33 +256,37 @@ div.csl-indent {
 
 
 
+
 <section id="modelled-habitat-maps" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="modelled-habitat-maps">Modelled Habitat Maps</h2>
 <p>High-resolution PDF maps accessed <a href="url">here</a>. In each individual map sheet, priority barriers are symbolized using the following notation:</p>
-<div id="fig-over" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="images/overview-map-hors.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption"><strong>Figure</strong>&nbsp;1: Map description.</figcaption>
+<div id="fig-over" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-over-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/overview-map-hors.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-over-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<strong>Figure</strong>&nbsp;1: Map description.
+</figcaption>
 </figure>
 </div>
 </section>
 <section id="connectivity-status-assessment-methods" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="connectivity-status-assessment-methods">Connectivity Status Assessment Methods</h2>
 <p>The connectivity status assessment … The model spatially locates known and modelled barriers to fish passage, identifies potential spawning and rearing habitat for target species, and estimates the amount of habitat that is currently accessible to target species. The habitat model uses two geomorphic characteristics of the stream network — channel gradient and mean annual discharge — to identify potential spawning habitat and rearing habitat for each target species. The habitat model does not attempt to definitively map each habitat type nor estimate habitat quality, but rather identifies stream segments that have high potential to support spawning or rearing habitat for each species based on the geomorphic characteristics of the segment. For more details on the connectivity and habitat model structure and parameters, please see <span class="citation" data-cites="Mazany-Wright2021-rz">Mazany-Wright et al. (<a href="references.html#ref-Mazany-Wright2021-rz" role="doc-biblioref">2021</a>)</span>. The variables and thresholds used to model potential spawning and rearing habitat for each target species are summarized in (table).</p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="tbl-param" class="anchored">
-
-<div class="tabwid"><style>.cl-33baaf04{}.cl-33b336de{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(255, 255, 255, 1.00);background-color:transparent;}.cl-33b336f2{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-33b61246{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-33b6275e{width:1.432in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6275f{width:3.343in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62768{width:8.396in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62769{width:3.088in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6276a{width:3.028in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62772{width:1.941in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62773{width:1.329in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62774{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62775{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6277c{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6277d{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6277e{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62786{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62787{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62788{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62789{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6278a{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b62790{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6279a{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6279b{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6279c{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6279d{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b6279e{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b627a4{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b627a5{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b627a6{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b627a7{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-33b627a8{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-33baaf04"><caption>Table&nbsp;1:  <p>Additional Key Actors. Key Actors are the individuals, groups, and/or
-organizations, outside of the planning team, with influence and relevant
-experience in the watershed, whose engagement will be critical for the
-successful implementation of this WCRP.</p> </caption><thead><tr style="overflow-wrap:break-word;"><th class="cl-33b6275e"><p class="cl-33b61246"><span class="cl-33b336de">Species</span></p></th><th class="cl-33b6275f"><p class="cl-33b61246"><span class="cl-33b336de">Channel Gradient (%)</span></p></th><th class="cl-33b62768"><p class="cl-33b61246"><span class="cl-33b336de">Mean annual discharge (m3/s)</span></p></th><th class="cl-33b62769"><p class="cl-33b61246"><span class="cl-33b336de">Channel gradient (%)</span></p></th><th class="cl-33b6276a"><p class="cl-33b61246"><span class="cl-33b336de">Mean Annual discharge (m3/s)</span></p></th><th class="cl-33b62772"><p class="cl-33b61246"><span class="cl-33b336de">Minimum Lake area (ha)</span></p></th><th class="cl-33b62773"><p class="cl-33b61246"><span class="cl-33b336de">Multiplier (1.5x)</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-33b62774"><p class="cl-33b61246"><span class="cl-33b336f2">Chinook Salmon</span></p></td><td class="cl-33b62775"><p class="cl-33b61246"><span class="cl-33b336f2">0-3</span></p></td><td class="cl-33b6277c"><p class="cl-33b61246"><span class="cl-33b336f2">0.46-322.5</span></p></td><td class="cl-33b6277d"><p class="cl-33b61246"><span class="cl-33b336f2">0-5</span></p></td><td class="cl-33b6277e"><p class="cl-33b61246"><span class="cl-33b336f2">0.28-100</span></p></td><td class="cl-33b62786"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b62787"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-33b62788"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b62789"><p class="cl-33b61246"><span class="cl-33b336f2">(Busch et al. 2011, Cooney and Holzer 2006)</span></p></td><td class="cl-33b6278a"><p class="cl-33b61246"><span class="cl-33b336f2">(Bjornn and Reiser 1991, Neuman and Newcombe 1977, Woll et al. 2017, Roberge et al. 2002, Raleigh and Miller 1986)</span></p></td><td class="cl-33b62790"><p class="cl-33b61246"><span class="cl-33b336f2">(Woll et al. 2017, Porter et al. 2008)</span></p></td><td class="cl-33b6279a"><p class="cl-33b61246"><span class="cl-33b336f2">(Agrawal et al. 2005)</span></p></td><td class="cl-33b6279b"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b6279c"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-33b62774"><p class="cl-33b61246"><span class="cl-33b336f2">Coho Salmon</span></p></td><td class="cl-33b62775"><p class="cl-33b61246"><span class="cl-33b336f2">0-5</span></p></td><td class="cl-33b6277c"><p class="cl-33b61246"><span class="cl-33b336f2">0.164-59.15</span></p></td><td class="cl-33b6277d"><p class="cl-33b61246"><span class="cl-33b336f2">0-5</span></p></td><td class="cl-33b6277e"><p class="cl-33b61246"><span class="cl-33b336f2">0.03-40</span></p></td><td class="cl-33b62786"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b62787"><p class="cl-33b61246"><span class="cl-33b336f2">Wetland</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-33b62788"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b62789"><p class="cl-33b61246"><span class="cl-33b336f2">(Roberge et al. 2002, Sloat et al. 2017)</span></p></td><td class="cl-33b6278a"><p class="cl-33b61246"><span class="cl-33b336f2">(Bjornn and Reiser 1991, Sloat et al. 2017, Neuman and Newcombe 1977, Woll et al. 2017, McMahon 1983)</span></p></td><td class="cl-33b62790"><p class="cl-33b61246"><span class="cl-33b336f2">(Porter et al. 2008, Rosenfeld et al. 2000)</span></p></td><td class="cl-33b6279a"><p class="cl-33b61246"><span class="cl-33b336f2">(Agrawal et al. 2005, Burnett et al. 2007)</span></p></td><td class="cl-33b6279b"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b6279c"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-33b62788"><p class="cl-33b61246"><span class="cl-33b336f2">Sockeye Salmon</span></p></td><td class="cl-33b62789"><p class="cl-33b61246"><span class="cl-33b336f2">0-2</span></p></td><td class="cl-33b6278a"><p class="cl-33b61246"><span class="cl-33b336f2">0.175-65</span></p></td><td class="cl-33b62790"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b6279a"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b6279b"><p class="cl-33b61246"><span class="cl-33b336f2">200</span></p></td><td class="cl-33b6279c"><p class="cl-33b61246"><span class="cl-33b336f2">Lake</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-33b6279d"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b6279e"><p class="cl-33b61246"><span class="cl-33b336f2">(Lake 1999, Hoopes 1972)</span></p></td><td class="cl-33b627a4"><p class="cl-33b61246"><span class="cl-33b336f2">(Bjornn and Reiser 1991, Woll et al. 2017, Neuman and Newcombe 1977, Roberge et al. 2002)</span></p></td><td class="cl-33b627a5"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b627a6"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td><td class="cl-33b627a7"><p class="cl-33b61246"><span class="cl-33b336f2">(Woll et al. 2017)</span></p></td><td class="cl-33b627a8"><p class="cl-33b61246"><span class="cl-33b336f2"></span></p></td></tr></tbody></table></div>
+<div id="tbl-param" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-param-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<strong>Table</strong>&nbsp;1: Additional Key Actors. Key Actors are the individuals, groups, and/or organizations, outside of the planning team, with influence and relevant experience in the watershed, whose engagement will be critical for the successful implementation of this WCRP.
+</figcaption>
+<div aria-describedby="tbl-param-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="tabwid"><style>.cl-cd422328{}.cl-cd3a08b4{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(255, 255, 255, 1.00);background-color:transparent;}.cl-cd3a08c8{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-cd3d44de{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-cd3d6630{width:1.432in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6631{width:3.343in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d663a{width:8.396in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6644{width:3.088in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6645{width:3.028in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6646{width:1.941in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d664e{width:1.329in;background-color:rgba(0, 130, 112, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d664f{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6650{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6658{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6659{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d665a{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d666c{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d666d{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d666e{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6676{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6677{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6680{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6681{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6682{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6683{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d668a{width:1.432in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6694{width:3.343in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6695{width:8.396in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6696{width:3.088in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d6697{width:3.028in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d669e{width:1.941in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cd3d66a8{width:1.329in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-cd422328"><thead><tr style="overflow-wrap:break-word;"><th class="cl-cd3d6630"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Species</span></p></th><th class="cl-cd3d6631"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Channel Gradient (%)</span></p></th><th class="cl-cd3d663a"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Mean annual discharge (m3/s)</span></p></th><th class="cl-cd3d6644"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Channel gradient (%)</span></p></th><th class="cl-cd3d6645"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Mean Annual discharge (m3/s)</span></p></th><th class="cl-cd3d6646"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Minimum Lake area (ha)</span></p></th><th class="cl-cd3d664e"><p class="cl-cd3d44de"><span class="cl-cd3a08b4">Multiplier (1.5x)</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-cd3d664f"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">Chinook Salmon</span></p></td><td class="cl-cd3d6650"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0-3</span></p></td><td class="cl-cd3d6658"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0.46-322.5</span></p></td><td class="cl-cd3d6659"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0-5</span></p></td><td class="cl-cd3d665a"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0.28-100</span></p></td><td class="cl-cd3d666c"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d666d"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cd3d666e"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6676"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Busch et al. 2011, Cooney and Holzer 2006)</span></p></td><td class="cl-cd3d6677"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Bjornn and Reiser 1991, Neuman and Newcombe 1977, Woll et al. 2017, Roberge et al. 2002, Raleigh and Miller 1986)</span></p></td><td class="cl-cd3d6680"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Woll et al. 2017, Porter et al. 2008)</span></p></td><td class="cl-cd3d6681"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Agrawal et al. 2005)</span></p></td><td class="cl-cd3d6682"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6683"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cd3d664f"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">Coho Salmon</span></p></td><td class="cl-cd3d6650"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0-5</span></p></td><td class="cl-cd3d6658"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0.164-59.15</span></p></td><td class="cl-cd3d6659"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0-5</span></p></td><td class="cl-cd3d665a"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0.03-40</span></p></td><td class="cl-cd3d666c"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d666d"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">Wetland</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cd3d666e"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6676"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Roberge et al. 2002, Sloat et al. 2017)</span></p></td><td class="cl-cd3d6677"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Bjornn and Reiser 1991, Sloat et al. 2017, Neuman and Newcombe 1977, Woll et al. 2017, McMahon 1983)</span></p></td><td class="cl-cd3d6680"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Porter et al. 2008, Rosenfeld et al. 2000)</span></p></td><td class="cl-cd3d6681"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Agrawal et al. 2005, Burnett et al. 2007)</span></p></td><td class="cl-cd3d6682"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6683"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cd3d666e"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">Sockeye Salmon</span></p></td><td class="cl-cd3d6676"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0-2</span></p></td><td class="cl-cd3d6677"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">0.175-65</span></p></td><td class="cl-cd3d6680"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6681"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6682"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">200</span></p></td><td class="cl-cd3d6683"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">Lake</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cd3d668a"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6694"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Lake 1999, Hoopes 1972)</span></p></td><td class="cl-cd3d6695"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Bjornn and Reiser 1991, Woll et al. 2017, Neuman and Newcombe 1977, Roberge et al. 2002)</span></p></td><td class="cl-cd3d6696"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d6697"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td><td class="cl-cd3d669e"><p class="cl-cd3d44de"><span class="cl-cd3a08c8">(Woll et al. 2017)</span></p></td><td class="cl-cd3d66a8"><p class="cl-cd3d44de"><span class="cl-cd3a08c8"></span></p></td></tr></tbody></table></div>
 </div>
-</div>
+</figure>
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-Mazany-Wright2021-rz" class="csl-entry" role="listitem">
 Mazany-Wright, N, S M Norris, N W R Lapointe, and B Rebellato. 2021. <span>“A Freshwater Connectivity Modelling Framework to Support Barrier Prioritization and Remediation in British Columbia.”</span> <em>Canadian Wildlife Federation</em>.
 </div>
@@ -361,10 +373,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -374,8 +385,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -388,6 +408,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -431,6 +570,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -456,6 +596,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -517,7 +683,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/supplementary-information.html" class="pagination-link">
+      <a href="../content/supplementary-information.html" class="pagination-link" aria-label="Supplementary Information">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Supplementary Information</span>
       </a>          
   </div>
@@ -525,6 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
