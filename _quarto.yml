@@ -3,8 +3,9 @@ project:
   output-dir: _book
 
 book:
-  title: "Title"
-  author: "Canadian Wildlife Federation"
+  title: "Reconnecting Our Rivers"
+  subtitle: "A Watershed Connectivity Restoration Plan for the Maqmekwitk (St. Croix) Watershed"
+  author: " Canadian Wildlife Federation and Confederacy of Mainland Mi’kmaq"
   date: last-modified
   date-format: "DD-MM-YYYY"
   chapters:
@@ -16,9 +17,10 @@ book:
     - content/references.qmd
     - content/version-history.qmd
   appendices: 
-    - content/project-partners.qmd
     - content/supplementary-information.qmd 
-    - content/data-methods.qmd
+    - content/wcrp-table.qmd
+    - content/appendix-c.qmd
+  
   
   
   sidebar: 

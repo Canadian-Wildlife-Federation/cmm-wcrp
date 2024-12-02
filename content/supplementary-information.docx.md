@@ -1,5 +1,5 @@
 
-## Appendix A - Defining Sets {.appendix-a}
+## Appendix A - Defining Sets {-}
 
 # Defining Sets {-}
 

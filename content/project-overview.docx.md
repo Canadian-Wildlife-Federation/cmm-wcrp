@@ -1,31 +1,11 @@
-```{python echo=FALSE}
-import python.api_calls as api
-from ipywidgets import *
-import pandas as pd
-import warnings
+::: {.cell}
 
-warnings.filterwarnings('ignore')
-```
+:::
 
-```{r setup, include=FALSE}
-#| echo: false
-#| warning: false
 
-library(reticulate)
-api <- import("python.api_calls")
-gain <- api$gain
-num_dam <- api$num_dam
-km_dam <- api$km_dam
-pct_dam <- api$pct_dam
-resource_km <- api$resource_km
-resource_pct <- api$resource_pct
-demo_km <- api$demo_km
-demo_pct <- api$demo_pct
-resource_sev <- api$resource_sev
-demo_sev <- api$demo_sev
-sum_road <- api$sum_road
 
-```
+
+
 
 # Project Overview {-} 
 
@@ -65,46 +45,56 @@ The primary geographic scope of this watershed connectivity plan is the Maqmekwi
 
 ![The primary geographic scope, the Maqmekwitk (St. Croix) watershed.](images/geo-scope-cmm.png){#fig-geoscope}
 
-The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of anthropogenic barriers. Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn). While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). These maps were explored by the planning team to incorporate additional local knowledge, ensure accuracy, and finalize the criteria used to define naturally accessible waterbodies. The new geographic scope formed the foundation for all subsequent analyses and planning steps. 
+The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of anthropogenic barriers (@fig-2). Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn). While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). These maps were explored by the planning team to incorporate additional local knowledge, ensure accuracy, and finalize the criteria used to define naturally accessible waterbodies. The new geographic scope formed the foundation for all subsequent analyses and planning steps. 
 
-```{python echo=FALSE}
-#| label: tbl-spn
-#| tbl-cap: "Species-specific stream characteristics used to spatially delineate naturally accessible waterbodies and key habitat for Atlantic Salmon and American Eel."
-#| warning: false
-#| echo: false
- 
-import numpy as np
-from IPython.display import display
-import pandas as pd
- 
-data = pd.read_csv('data/species_names.csv', index_col=False, skip_blank_lines=False )
-def fix_table(val):
-    return str(val)
- 
-def highlighttab7(val):
-    red = '#ff0000;'
-    yellow = '#ffff00;'
-    lgreen = '#92d050;'
-    dgreen = '#03853e;'
- 
-    if val=="Medium" or val=="Need more information": color = yellow
-    elif val=="Very high" or val=="Very effective" : color = dgreen
-    elif val =="High" or val=="Effective": color = lgreen
-    else: color = 'white'
-    return 'background-color: %s' % color
- 
-data = data.replace(np.nan, '', regex=True)
- 
-data = data.applymap(fix_table)
- 
-data = data.style.applymap(highlighttab7).hide().set_properties(**{'text-align': 'left'})
-data.set_table_styles(
-   [{
-       'selector': 'th',
-       'props': [('background-color', '#008270'),('text-align', 'left')]
-   }])
- 
+
+
+
+::: {#tbl-spn .cell tbl-cap='Species-specific stream characteristics used to spatially delineate naturally accessible waterbodies and key habitat for Atlantic Salmon and American Eel.'}
+::: {.cell-output-display}
+
+
+```{=html}
+<style type="text/css">
+#T_139b9 th {
+  background-color: #008270;
+  text-align: left;
+}
+#T_139b9_row0_col0, #T_139b9_row0_col1, #T_139b9_row0_col2, #T_139b9_row1_col0, #T_139b9_row1_col1, #T_139b9_row1_col2 {
+  background-color: white;
+  text-align: left;
+}
+</style>
+<table id="T_139b9">
+  <thead>
+    <tr>
+      <th id="T_139b9_level0_col0" class="col_heading level0 col0" >Species</th>
+      <th id="T_139b9_level0_col1" class="col_heading level0 col1" >Accessibility Parameters</th>
+      <th id="T_139b9_level0_col2" class="col_heading level0 col2" >Key Habitat Parameters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_139b9_row0_col0" class="data row0 col0" >Plamu, Atlantic Salmon </td>
+      <td id="T_139b9_row0_col1" class="data row0 col1" >Channel gradient <30%; waterfalls <5m </td>
+      <td id="T_139b9_row0_col2" class="data row0 col2" >Channel gradient <3% </td>
+    </tr>
+    <tr>
+      <td id="T_139b9_row1_col0" class="data row1 col0" >Kataq, American Eel </td>
+      <td id="T_139b9_row1_col1" class="data row1 col1" >All stream segments </td>
+      <td id="T_139b9_row1_col2" class="data row1 col2" >Strahler order 2+ </td>
+    </tr>
+  </tbody>
+</table>
+
 ```
+
+
+:::
+:::
+
+
+
 
 ![Key habitat (channel gradient <3%) and naturally accessible waterbodies (<30% channel gradient and <5m waterfalls) to Plamu (Atlantic Salmon) within the Maqmekwitk (St. Croix) watershed.](images/figure_2.png){#fig-2}
 
