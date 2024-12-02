@@ -18,9 +18,9 @@ source("Rscripts/table_formatting.R")
 
 ```
 
-# Barrier Prioritization {.unnumbered}
+# Structure Prioritization {.unnumbered}
 
-## Maqmekwitk (St. Croix) Watershed Barrier Prioritization Summary {.unnumbered}
+## Maqmekwitk (St. Croix) Watershed Structure Prioritization Summary {.unnumbered}
 
 The primary goal of Reconnecting our Rivers is to restore connectivity to Plamu and Kataq habitat in the Maqmekwitk watershed. To achieve this goal, the plan will guide which structures to assess in the field, and subsequently, which barriers to address (i.e., remove or replace the barrier, or temporarily add fish passage). To maximize conservation efforts/resources towards achieving this goal, it is imperative to identify a suite of barriers that, if addressed, will provide the largest, most important contribution towards restored connectivity of salmon and eel habitat. The following section outlines the ranking process to identify the list of barriers.
 
