@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/barrier-prioritization.html" rel="next">
+<link href="../content/structure-prioritization.html" rel="next">
 <link href="../content/project-overview.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -163,8 +163,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/barrier-prioritization.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Barrier Prioritization</span></a>
+  <a href="../content/structure-prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Structure Prioritization</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -240,17 +240,37 @@ ul.task-list li input[type="checkbox"] {
 <p>The current connectivity status for each species was estimated using three spatial models:</p>
 <ol type="1">
 <li><p><strong>Accessibility model:</strong> Naturally accessible waterbodies are those that are considered likely accessible to focal species if no human-made barriers existed on the landscape. These were spatially delineated for each focal species using natural barriers (i.e., waterfalls, gradient barriers, or subsurface flows) that would limit upstream movement (<a href="project-overview.html#tbl-spn" class="quarto-xref">Table&nbsp;<span>1</span></a>).</p></li>
-<li><p><strong>Habitat model:</strong> A subset of the naturally accessible waterbody layer was defined as key habitat based on the KEA. The habitat model identifies waterbodies that have a higher potential to support key habitat based on stream characteristics like channel gradient and discharge. The habitat model criteria can be found in (<a href="project-overview.html#tbl-spn" class="quarto-xref">Table&nbsp;<span>1</span></a>).</p></li>
+<li><p><strong>Habitat model:</strong> A subset of the naturally accessible waterbody layer was defined as key habitat likely to support important life stages, rather than simply movement corridors. The habitat model identifies waterbodies that have a higher potential to support key habitat based on stream characteristics like channel gradient and discharge. The habitat model criteria used were channel gradients &lt;3% for Plamu (<a href="#fig-2" class="quarto-xref">Figure&nbsp;<span>1</span></a>) and streams with a strahler order of 2 or higher for Kataq (<a href="#fig-3" class="quarto-xref">Figure&nbsp;<span>2</span></a>).</p></li>
 <li><p><strong>Connectivity model:</strong> A layer of known or modelled structures was overlaid on the key habitat results. Structures with unknown passability were treated as a full barrier until confirmed passable (100% passable) or partially passable (25, 50, or 75%) by either local knowledge, desktop review, or field assessment. Watershed connectivity was estimated by calculating the amount of key habitat that is connected to the ocean (i.e., not fragmented by human-made barriers). Key habitat with only passable structures downstream was considered fully connected. All key habitat with any full barrier downstream was considered disconnected.</p></li>
 </ol>
-<p>All connected habitats were summed and divided by the total amount of key habitat in the watershed to determine the proportion of connected habitat relative to the entire watershed. Of the estimated 758 km of key spawning and rearing habitat for Plamu in the Maqmekwitk watershed, 30.54% (231.6 km) is connected to the ocean (<a href="#fig-4" class="quarto-xref">Figure&nbsp;<span>1</span></a>). Similarly, of the 464.9 km of key eel habitat (used for feeding and growth) in the Maqmekwitk watershed, 32.71% (152 km) is connected to the ocean (<a href="#fig-5" class="quarto-xref">Figure&nbsp;<span>2</span></a>). These values are likely an underestimate of how connected the system, and additional field assessments and local knowledge exchange to confirm species-specific passability for potential barriers will help to close those knowledge gaps and ensure a more accurate estimate of connectivity status.</p>
+<div id="fig-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/figure_2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<strong>Figure</strong>&nbsp;1: Key habitat (channel gradient &lt;3%) and naturally accessible waterbodies (&lt;30% channel gradient and &lt;5m waterfalls) to Plamu (Atlantic Salmon) within the Maqmekwitk (St.&nbsp;Croix) watershed.
+</figcaption>
+</figure>
+</div>
+<div id="fig-3" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/figure_3.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<strong>Figure</strong>&nbsp;2: Key habitat (strahler order 2+) and naturally accessible waterbodies (all stream segments) to Kataq (American Eel) within the Maqmekwitk (St.&nbsp;Croix) watershed.
+</figcaption>
+</figure>
+</div>
+<p>All connected habitats were summed and divided by the total amount of key habitat in the watershed to determine the proportion of connected habitat relative to the entire watershed. Of the estimated 758 km of key spawning and rearing habitat for Plamu in the Maqmekwitk watershed, 30.54% (231.6 km) is connected to the ocean (<a href="#fig-4" class="quarto-xref">Figure&nbsp;<span>3</span></a>). Similarly, of the 464.9 km of key eel habitat (used for feeding and growth) in the Maqmekwitk watershed, 32.71% (152 km) is connected to the ocean (<a href="#fig-5" class="quarto-xref">Figure&nbsp;<span>4</span></a>). These values are likely an underestimate of how connected the system, and additional field assessments and local knowledge exchange to confirm species-specific passability for potential barriers will help to close those knowledge gaps and ensure a more accurate estimate of connectivity status.</p>
 <div id="fig-4" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/figure_4.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<strong>Figure</strong>&nbsp;1: Connected (light blue) and disconnected (red) key habitat for Plamu in the Maqmekwitk watershed. Atlantic Salmon connectivity status was estimated as 30.54%.
+<strong>Figure</strong>&nbsp;3: Connected (light blue) and disconnected (red) key habitat for Plamu in the Maqmekwitk watershed. Atlantic Salmon connectivity status was estimated as 30.54%.
 </figcaption>
 </figure>
 </div>
@@ -260,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 <img src="images/figure_5.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<strong>Figure</strong>&nbsp;2: Connected (light blue) and disconnected (red) key habitat for Kataq in the Maqmekwitk watershed. American Eel connectivity status was estimated as 32.71%.
+<strong>Figure</strong>&nbsp;4: Connected (light blue) and disconnected (red) key habitat for Kataq in the Maqmekwitk watershed. American Eel connectivity status was estimated as 32.71%.
 </figcaption>
 </figure>
 </div>
@@ -663,8 +683,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/barrier-prioritization.html" class="pagination-link" aria-label="Barrier Prioritization">
-        <span class="nav-page-text">Barrier Prioritization</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/structure-prioritization.html" class="pagination-link" aria-label="Structure Prioritization">
+        <span class="nav-page-text">Structure Prioritization</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

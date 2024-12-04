@@ -1,4 +1,4 @@
-![](spawn.jpg)
 
-## Homepage {-}
+# Homepage {-}
 
+The following Reconnecting our Rivers project represents the culmination of a collaborative planning effort with the Confederacy of Mainland Mi’kmaq (CMM) and the Canadian Wildlife Federation (CWF). The overall aim is to build meaningful partnerships, reduce the threat of aquatic barriers to diadromous fish and the livelihoods that they support. This plan will identify priority actions that CMM, CWF, and other project partners propose to undertake between 2023-2033 to preserve and restore fish connectivity in the Maqmekwitk (St. Croix) watershed, with additional watersheds being added in future years (including Shubenacadie and Stewiacke River). This will be done through addressing physical barriers to fish passage. This watershed connectivity plan will be shared with local First Nations, Fisheries and Oceans Canada (DFO), the NS Government, NGOs, and local stakeholders to inform directed efforts to improve fish productivity and diversity in these watersheds.

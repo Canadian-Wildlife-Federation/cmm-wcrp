@@ -29,21 +29,17 @@ sum_road <- api$sum_road
 
 # Project Overview {-} 
 
-## Plan Purpose, Approach, and Scope {-}
-
-The following Reconnecting our Rivers project represents the culmination of a collaborative planning effort with the Confederacy of Mainland Mi’kmaq (CMM) and the Canadian Wildlife Federation (CWF). The overall aim is to build meaningful partnerships, reduce the threat of aquatic barriers to diadromous fish and the livelihoods that they support. This plan will identify priority actions that CMM, CWF, and other project partners propose to undertake between 2023-2033 to preserve and restore fish connectively in the Maqmekwitk (St. Croix) watershed, with additional watersheds being added in future years (including Shubenacadie and Stewiacke River). This will be done through addressing physical barriers to fish passage. This watershed connectivity plan will be shared with local First Nations, Fisheries and Oceans Canada (DFO), the NS Government, NGOs, and local stakeholders to inform directed efforts to improve fish productivity and diversity in these watersheds.  
-
 ## Vision Statement {-}
 
-Healthy, well-connected rivers within the Maqmekwitk watershed support populations of migratory fish including Plamu (Atlantic Salmon) and Kataq (American Eel), improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi'kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of anthropogenic aquatic barriers, improving the resiliency of the watershed for the benefit and appreciation of all. 
+Healthy, well-connected rivers within the Maqmekwitk watershed support populations of migratory fish including Plamu (Atlantic Salmon) and Kataq (American Eel), improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi'kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of human-made barriers, improving the resiliency of the watershed for the benefit and appreciation of all. 
 
 ## Project Scope {-}
 
-Connectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic organisms to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation (@Seliger2018-be). Though each of these factors are important when considering the health of a watershed, for the purpose of this project the term "connectivity" is defined as the degree to which aquatic organisms can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including anthropogenic infrastructure such as dams and stream crossings, and natural features such as waterfalls. This plan will focus on the direct rehabilitation and prevention of localized, physical barriers instead of the broad, land-use patterns causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this watershed connectivity plan is addressing barriers to longitudinal connectivity (i.e., along the upstream-downstream plane) due to the importance of maintaining fish passage to spawning and rearing habitat in the watershed. 
+Connectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic species to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation (@Seliger2018-be). Though each of these factors are important when considering the health of a watershed, for the purpose of this project the term "connectivity" is defined as the degree to which aquatic species can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including human-made infrastructure such as dams and stream crossings, and natural features such as waterfalls. This plan will focus on the direct rehabilitation and prevention of localized, physical barriers instead of the broad, land-use patterns causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this watershed connectivity plan is addressing barriers to longitudinal connectivity (i.e., along the upstream-downstream plane) due to the importance of maintaining fish passage to spawning and rearing habitat in the watershed. 
 
 ## Focal species
 
-Focal species represent the ecologically and culturally important species for which habitat connectivity is being directly conserved and/or restored in the watershed. The planning team selected three target species: Plamu (Atlantic Salmon) and Kataq (American Eel). The selection of these key species was driven primarily by local conservation goals. 
+Focal species represent the ecologically and culturally important species for which habitat connectivity is being directly conserved and/or restored in the watershed. The planning team selected two target species: Plamu (Atlantic Salmon) and Kataq (American Eel). The selection of these key species was driven primarily by local conservation goals. 
 
 ### Atlantic Salmon | Plamu | *Salmo salar* 
 
@@ -61,11 +57,11 @@ American Eel are widely distributed throughout Nova Scotia rivers, including the
 
 ## Geographic Scope
 
-The primary geographic scope of this watershed connectivity plan is the Maqmekwitk (St. Croix), which is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). The Maqmekwitk has a total drainage area of 746.7 km2 (@fig-geoscope). 
+The primary geographic scope of this watershed connectivity plan is the Maqmekwitk (St. Croix), which is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). The Maqmekwitk has a total drainage area of 746.7 km^2^ (@fig-geoscope). 
 
 ![The primary geographic scope, the Maqmekwitk (St. Croix) watershed.](images/geo-scope-cmm.png){#fig-geoscope}
 
-The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of anthropogenic barriers. Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn). While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). These maps were explored by the planning team to incorporate additional local knowledge, ensure accuracy, and finalize the criteria used to define naturally accessible waterbodies. The new geographic scope formed the foundation for all subsequent analyses and planning steps. 
+The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of human-made barriers. Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn).While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). As a result, all waterbodies were considered accessible in this iteration of the project.
 
 ```{python echo=FALSE}
 #| label: tbl-spn
@@ -106,13 +102,9 @@ data.set_table_styles(
  
 ```
 
-![Key habitat (channel gradient <3%) and naturally accessible waterbodies (<30% channel gradient and <5m waterfalls) to Plamu (Atlantic Salmon) within the Maqmekwitk (St. Croix) watershed.](images/figure_2.png){#fig-2}
-
-![Key habitat (strahler order 2+) and naturally accessible waterbodies (all stream segments) to Kataq (American Eel) within the Maqmekwitk (St. Croix) watershed.](images/figure_3.png){#fig-3}
-
 ## Structure Types {-}
 
-The following section highlights three main anthropogenic structure types (aboiteaux, dams, and stream crossings) that fragment key habitat for Plamu and Kataq in the Maqmekwitk watershed.  . 
+The following section highlights three main human-made structure types (aboiteaux, dams, and stream crossings) that fragment key habitat for Plamu and Kataq in the Maqmekwitk watershed.
 
 ### Aboiteaux {-}
 
@@ -124,4 +116,4 @@ There are seven mapped dams that potentially block a combined 154 km of linear s
 
 ### Stream Crossings {-}
 
-Stream crossings (i.e., culverts) are the most abundant barrier type in the watershed, with 485 stream crossings located downstream of modelled key habitat for Plamu or Kataq. Stream crossings fully or partially block 385 km of salmon and eel habitat. Detailed assessments by CMM were previously completed on 82 stream crossings located downstream of salmon and eel key habitat. Of these 82 structures, nine were in the top 30 ranked sets. 
+Stream crossings (i.e., culverts) are the most abundant structure type in the watershed, with 485 stream crossings located downstream of modelled key habitat for Plamu or Kataq. Stream crossings fully or partially block 385 km of salmon and eel habitat. Detailed assessments by CMM were previously completed on 82 stream crossings located downstream of salmon and eel key habitat. Of these 82 structures, nine were in the top 30 ranked sets. 
