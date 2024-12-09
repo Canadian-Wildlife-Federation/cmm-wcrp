@@ -53,8 +53,7 @@ Following field assessments, structures are placed on one of five possible lists
 #| echo: false
 
 data <- read.csv("data/priority_barriers.csv", check.names=FALSE)
-prior_num <- nrow(data)
-ft <- flextable(data)
+ft <- create_sorted_flextable(data)
 ft <- format_flextable(ft)
 ft
 ```
@@ -66,7 +65,7 @@ ft
 #| echo: false
 
 data <- read.csv("data/rehabilitated_structures_table.csv", check.names=FALSE)
-ft <- flextable(data)
+ft <- create_sorted_flextable(data)
 ft <- format_flextable(ft)
 ft
 ```

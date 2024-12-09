@@ -1,0 +1,62 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Work Planning {-}\n",
+        "\n",
+        "## Annual Progress Report {-}\n",
+        "\n",
+        "Between 2023-2024, CMM and CWF began the first iteration of the watershed connectivity planning process. After developing the first round of connectivity models, CMM and CWF co-hosted a public community outreach workshop in May 2024 at the Windsor Community Center. The workshop included a short presentation on the project progress and printed maps of the initial model outputs for interactive discussions with local knowledge holders on 1) structures in the Maqmekwitk, 2) salmon and eel movement throughout the rivers, and 3) interests/priorities from community members. One topic that was highly discussed was the 2023 floods, and the need to return to several previously assessed sites to re-assess passability status. After this workshop, CMM and CWF completed field assessments of passability status for 11 highly ranked sites, including two dams and nine stream crossings. The field results were discussed as a planning team and the annual work plan was developed in August 2024 (@tbl-workplan).   \n",
+        "\n",
+        "## Annual Work Plan {-}\n"
+      ],
+      "id": "7a6468c1"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: tbl-workplan\n",
+        "#| tbl-cap: 2024-2025 annual work plan for the Reconnecting our Rivers project in the Maqmekwitk watershed.\n",
+        "#| warning: false\n",
+        "#| echo: false\n",
+        "\n",
+        "from IPython.display import display\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "\n",
+        "def df_operation(val):\n",
+        "    return \"background-color: black; color: white\"\n",
+        "\n",
+        "\n",
+        "data = pd.read_csv('data/work-plan.csv', index_col=False)\n",
+        "\n",
+        "data = data.replace(np.nan, '', regex=True)\n",
+        "\n",
+        "rows = pd.IndexSlice[[0, 11], :]\n",
+        "\n",
+        "data = data.style.applymap(df_operation, subset=rows).hide().set_properties(**{'text-align': 'left'})\n",
+        "data.set_table_styles(\n",
+        "   [{\n",
+        "       'selector': 'th',\n",
+        "       'props': [('background-color', '#008270'),('text-align', 'left'), ('font-size', '20pt')]\n",
+        "   }])"
+      ],
+      "id": "tbl-workplan",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
