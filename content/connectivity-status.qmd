@@ -19,7 +19,7 @@ library(reticulate)
 
 ```
 
-# Connectivity Status Assessment {-}
+# Connectivity Status Assessment 
 
 ## Connectivity Status Assessment {-}
 
