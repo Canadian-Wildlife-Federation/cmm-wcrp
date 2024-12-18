@@ -42,7 +42,7 @@ Following field assessments, structures are placed on one of five possible lists
 
 3.  **Rehabilitated barriers list** – priority barriers that have been addressed (either through removal, replacement, or temporary fish passage improvement projects (@tbl-rehab)).
 
-4.  **Non-actionable barriers list** – the structure is confirmed to be a barrier to fish passage and have some amount/quality of habitat upstream, but the planning team will not identify actions to address passability of the barrier because of logistic considerations (e.g., financial costs), short habitat gain, or the upstream habitat is of poor quality or unsuitable in its present condition to support key life stages of the focal species ([Appendix B](wcrp-table.qmd)).
+4.  **Non-actionable barriers list** – the structure is confirmed to be a barrier to fish passage and have some amount/quality of habitat upstream, but the planning team will not identify actions to address passability of the barrier because of logistic considerations (e.g., financial costs), short habitat gain, or the upstream habitat is of poor quality or unsuitable in its present condition to support key life stages of the focal species.
 
 5.  **Excluded structures list** – the structure is excluded from further consideration in subsequent ranking and work planning because the structure is confirmed passable (e.g., bridge), not present, or there is no key habitat upstream ([Appendix B](wcrp-table.qmd)).
 
@@ -52,8 +52,8 @@ Following field assessments, structures are placed on one of five possible lists
 #| warning: false
 #| echo: false
 
-data <- read.csv("data/priority_barriers.csv", check.names=FALSE)
-ft <- create_sorted_flextable(data)
+data <- read.csv("data/priority_barriers_.csv", check.names=FALSE)
+ft <- flextable(data)
 ft <- format_flextable(ft)
 ft
 ```

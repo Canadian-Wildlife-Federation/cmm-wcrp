@@ -32,7 +32,7 @@ data = pd.read_csv('data/work-plan.csv', index_col=False)
 
 data = data.replace(np.nan, '', regex=True)
 
-rows = pd.IndexSlice[[0, 11], :]
+rows = pd.IndexSlice[[0, 6], :]
 
 data = data.style.applymap(df_operation, subset=rows).hide().set_properties(**{'text-align': 'left'})
 data.set_table_styles(
