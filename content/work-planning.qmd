@@ -1,44 +1,7 @@
-```{r setup, include=FALSE}
-#| echo: false
-#| warning: false
+# Work Planning {-}
 
-library(reticulate)
-```
-
-# Work Planning 
-
-## Annual Progress Report {-}
-
-Between 2023-2024, CMM and CWF began the first iteration of the watershed connectivity planning process. After developing the first round of connectivity models, CMM and CWF co-hosted a public community outreach workshop in May 2024 at the Windsor Community Center. The workshop included a short presentation on the project progress and printed maps of the initial model outputs for interactive discussions with local knowledge holders on 1) structures in the Maqmekwitk, 2) salmon and eel movement throughout the rivers, and 3) interests/priorities from community members. One topic that was highly discussed was the 2023 floods, and the need to return to several previously assessed sites to re-assess passability status. After this workshop, CMM and CWF completed field assessments of passability status for 11 highly ranked sites, including two dams and nine stream crossings. The field results were discussed as a planning team and the annual work plan was developed in August 2024 (@tbl-workplan).   
-
-## Annual Work Plan {-}
-
-```{python workplan, echo=FALSE}
-#| label: tbl-workplan
-#| tbl-cap: "2024-2025 annual work plan for the Reconnecting our Rivers project in the Maqmekwitk watershed."
-#| warning: false
-#| echo: false
-
-from IPython.display import display
-import pandas as pd
-import numpy as np
+## Structure Ranking Context {-}
 
 
-def df_operation(val):
-    return "background-color: black; color: white"
+## Workplan {-}
 
-
-data = pd.read_csv('data/work-plan.csv', index_col=False)
-
-data = data.replace(np.nan, '', regex=True)
-
-rows = pd.IndexSlice[[0, 6], :]
-
-data = data.style.applymap(df_operation, subset=rows).hide().set_properties(**{'text-align': 'left'})
-data.set_table_styles(
-   [{
-       'selector': 'th',
-       'props': [('background-color', '#008270'),('text-align', 'left'), ('font-size', '20pt')]
-   }])
-
-```
