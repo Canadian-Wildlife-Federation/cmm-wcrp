@@ -1,31 +1,3 @@
-```{python echo=FALSE}
-import python.api_calls as api
-from ipywidgets import *
-import pandas as pd
-import warnings
-
-warnings.filterwarnings('ignore')
-```
-
-```{r setup, include=FALSE}
-#| echo: false
-#| warning: false
-
-library(reticulate)
-api <- import("python.api_calls")
-gain <- api$gain
-num_dam <- api$num_dam
-km_dam <- api$km_dam
-pct_dam <- api$pct_dam
-resource_km <- api$resource_km
-resource_pct <- api$resource_pct
-demo_km <- api$demo_km
-demo_pct <- api$demo_pct
-resource_sev <- api$resource_sev
-demo_sev <- api$demo_sev
-sum_road <- api$sum_road
-
-```
 
 # Introduction {-}
 
@@ -51,7 +23,7 @@ Model outputs include an estimate of the current connectivity status along with 
 
 Connectivity models in this WCRP focus on longitudinal habitat fragmentation by anthropogenic structures, including all types of dams, stream crossings, and aboiteaux. Diffuse natural barriers that make entire areas impassible are not included in the models but may be used to define the scope of this WCRP. For example, a tributary that is inhospitable because of increased water temperature may be excluded from the overall spatial scope of the WCRP because restoration needs there are broader than connectivity.
 
-![Figure 5: Map of the geographic scope of this connectivity restoration plan for Plamu and Kataq in the Maqmekwitk watershed in Nova Scotia. ](images/Figure 5.png){fig-cap-location="top"}
+![Figure 7: Map of the geographic scope of this connectivity restoration plan for Plamu and Kataq in the Maqmekwitk watershed in Nova Scotia. ](images/Figure 7.png){fig-cap-location="top"}
 
 
 

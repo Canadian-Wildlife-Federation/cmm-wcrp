@@ -41,36 +41,12 @@ In the Maqmekwitk watershed, X structures potentially disconnect Kataq habitat. 
 
 ## Habitat Accumulation Curves
 
-![Figure 3: Habitat Accumulation Curve (HAC) showing structures in the Maqmekwitk watershed that potentially block Plamu habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. ](images/Figure 3.png){fig-cap-location="top"}
+![Figure 3:  Habitat Accumulation Curve (HAC) showing all structures (n=515) in the Maqmekwitk watershed that potentially block Plamu habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. ](images/Figure 3.png){fig-cap-location="top"}
 
-![Figure 4: Habitat Accumulation Curve (HAC) showing structures in the Maqmekwitk watershed that potentially block Kataq habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. ](images/Figure 4.png){fig-cap-location="top"}
+![Figure 4: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=32) in the Maqmekwitk watershed that potentially block Plamu habitat and are labelled in Figure 1, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. ](images/Figure 4.png){fig-cap-location="top"}
 
-## Habitat Accumulation Summary Table
+![Figure 5: Habitat Accumulation Curve (HAC) showing all structures (n=176) in the Maqmekwitk watershed that potentially block Kataq habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown.  . ](images/Figure 5.png){fig-cap-location="top"}
 
-```{r hac1, echo = FALSE, results = 'asis'}
-#| label: table-1
-#| tbl-cap: "Table 1.  Labelled structures in the Habitat Accumulation Curve (Figure 3 and 4), their rank, and weighted upstream habitat for Plamu and Kataq in Maqmekwitk watershed. Habitat gain (averaged across sets) represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the potential gain in habitat if passage at that structure was restored. "
-#| warning: false
-#| echo: false
-source("Rscripts/table_formatting.R")
-library("flextable")
+![Figure 6: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=31) in the Maqmekwitk watershed that potentially block Kataq habitat, and are labelled in Figure 2, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.  ](images/Figure 6.png){fig-cap-location="top"} 
 
-data <- read.csv("data/table1.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- format_flextable(ft)
-ft
-```
-
-```{r hac2, echo = FALSE, results = 'asis'}
-#| label: table-2
-#| tbl-cap: "Table 2. Labelled structures in the Habitat Accumulation Curve (Figure 4), their rank, and weighted upstream habitat for American Eel in the Stewiacke watershed. Weighted Habitat Gain per Set represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the immediate potential gain in habitat if passage at that structure was restored. Total Weighted Habitat Upstream per Set (km) represents the total amount (km) of weighted habitat upstream of the set, regardless of upstream structures, and depicts the long-term potential gain in habitat if passage at that structure (and all other upstream structures) was restored. Structure rank represents the model ranking of all sets of 1 or more structures."
-#| warning: false
-#| echo: false
-source("Rscripts/table_formatting.R")
-library("flextable")
-
-data <- read.csv("data/table2.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- format_flextable(ft)
-ft
-```
+This WCRP was initiated in 2023 through the collaboration of CMM, CWF, and other members of the planning team. Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of X structures has been assessed, and further habitat assessments were completed at X of these. Fish passage has been rehabilitated at X barriers, resulting in improved or restored access to X km of Plamu habitat and X km of Kataq habitat.  
