@@ -14,6 +14,9 @@ A feature, either anthropogenic (e.g., culvert, dam) or a temporary natural feat
 ### Set of structures {-}
 A set of two or more structures that must be addressed/considered together to achieve a combined increase in habitat connectivity.
 
+### Partial Passability {-}
+Structures that pass some individuals but not all. This includes structures that are passable only during certain seasons or flow conditions, structures that pass certain species or life stages but not others, or structures that only a subset of similar individuals typically pass. 
+
 ### Current connectivity status {-}
  the measure (i.e., amount, proportion, or index) of habitat that is currently connected for each focal species, assuming that all unassessed structures are barriers. 
 

@@ -2,9 +2,13 @@ project:
   type: book
   output-dir: _book
 
+execute:
+  warning: false
+
 book:
-  title: ""
-  author: "Canadian Wildlife Federation"
+  title: "Reconnecting Our Rivers"
+  subtitle: "A Watershed Connectivity Restoration Plan for the Maqmekwitk (St. Croix) Watershed"
+  author: " Canadian Wildlife Federation and Confederacy of Mainland Mi’kmaq"
   date: last-modified
   date-format: "DD-MM-YYYY"
   chapters:
@@ -16,17 +20,24 @@ book:
     - content/work-planning.qmd
     - content/progress-reporting.qmd
     - content/references.qmd
+    - content/version-history.qmd
   appendices: 
-    - content/appendix-a.qmd
+    - content/appendix-a.qmd 
     - content/appendix-b.qmd
-    - content/appendix-c.qmd 
+
+  
   
   
   sidebar: 
     pinned: true
     logo: images/logo.png
+    tools: 
+      - icon: save
+        menu: 
+          - text: Word DOCX
+            url: _book/Horsefly-River-Watershed-Secwepemcúl’ecw-Connectivity-Remediation-Plan--2021---2040.docx
 
-
+csl: csl/apa.csl
 
 
 bibliography: references.bib
@@ -37,8 +48,7 @@ format:
   html:
     css: style.css
     theme: cosmo
-    toc: false
-    fig-cap-location: top
+    toc-title: "WCRP"
     crossref:
       fig-title: '**Figure**'
       tbl-title: '**Table**'

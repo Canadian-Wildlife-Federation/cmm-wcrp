@@ -1,14 +1,35 @@
 # Appendix A – Status of Structures Assessed in the Field {-}
 
-## Non-Actionable Barriers
-
+## Non-actionable Barriers {-}
+There were no non-actionable barriers identified through this WCRP as of 2026. 
 
 ## Data-deficient Barriers {-}
 
+```{r table4, echo = FALSE, results = 'asis'}
+#| label: table-5
+#| tbl-cap: "Table 5. Structures in Maqmekwitk watershed that have been assessed for fish passage for Plamu and Kataq as of May 2026, but either require an additional in-depth fish-passage assessment to confirm the passability status or a habitat assessment to confirm upstream habitat values. "
+#| echo: false
+source("Rscripts/table_formatting.R")
+library("flextable")
+
+data <- read.csv("data/assessed_data_deficient_structures_table.csv", check.names=FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```
 
 ## Excluded Structures {-}
 
+```{r table5, echo = FALSE, results = 'asis'}
+#| label: table-6
+#| tbl-cap: "Table 5. Structures in Maqmekwitk watershed that are excluded from further consideration in subsequent ranking and work planning because the structure is not present, is confirmed passable (e.g., bridge), or has no habitat upstream for Plamu and Kataq. "
+#| warning: false
+#| echo: false
+source("Rscripts/table_formatting.R")
+library("flextable")
 
-
-
-
+data <- read.csv("data/excluded_structures_table.csv", check.names=FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```

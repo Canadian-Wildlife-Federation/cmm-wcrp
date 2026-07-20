@@ -1,25 +1,47 @@
+```{python echo=FALSE}
+import warnings
 
-# Key Ecological Attributes and Connectivity Status Results  {-}
+warnings.filterwarnings('ignore')
+
+```
+
+```{r echo=FALSE}
+#| echo: false
+#| include: true
+#| warning: false
+
+library(reticulate)
+
+```
+
+# Connectivity Status Results {-}
 
 ## Current Connectivity Status {-}
 
+In the Maqmekwitk watershed, 218.23 km of Plamu habitat are currently connected to the ocean and 266.67 km are disconnected from it. This means that 45.01% of the 484.90 km of total habitat is connected.
 
-## Goals {-}
-
-
+In the Maqmekwitk watershed, 191.80 km of Kataq habitat are currently connected to the ocean and 216.67 km are disconnected from it. This means that 46.96% of the 408.46 km of total habitat is connected.
 
 ## Structure Count {-}
 
+In the Maqmekwitk watershed, 515 structures potentially disconnect Plamu habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 505 require further field assessment.
 
+In the Maqmekwitk watershed, 176 structures potentially disconnect Kataq habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 167 require further field assessment.
 
 ## Maps {-}
 
-
+![Figure 1: : Map of Plamu habitat and structures that are confirmed or potential barriers to fish passage in the Maqmekwitk watershed as of May 2026. Structure data were obtained from NSFishPass and the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Plamu could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Plamu for spawning and rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). <br> A](images/Figure 1.png){fig-cap-location="top"}
+ 
+![Figure 2: Map of Kataq habitat and structures that are confirmed or potential barriers to fish passage in the Stewiacke watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Kataq could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Kataq for growth and feeding. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).<br> A](images/Figure 2.png){fig-cap-location="top"}
 
 ## Habitat Accumulation Curves
 
+![Figure 3:  Habitat Accumulation Curve (HAC) showing all structures (n=515) in the Maqmekwitk watershed that potentially block Plamu habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. ](images/Figure 3.png){fig-cap-location="top"}
 
+![Figure 4: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=32) in the Maqmekwitk watershed that potentially block Plamu habitat and are labelled in Figure 1, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set. ](images/Figure 4.png){fig-cap-location="top"}
 
-## Habitat Accumulation Summary Table
+![Figure 5: Habitat Accumulation Curve (HAC) showing all structures (n=176) in the Maqmekwitk watershed that potentially block Kataq habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown.  . ](images/Figure 5.png){fig-cap-location="top"}
 
+![Figure 6: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=31) in the Maqmekwitk watershed that potentially block Kataq habitat, and are labelled in Figure 2, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.  ](images/Figure 6.png){fig-cap-location="top"} 
 
+This WCRP was initiated in 2023 through the collaboration of CMM, CWF, and other members of the planning team. Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of X structures has been assessed, and further habitat assessments were completed at X of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to X km of Plamu habitat and X km of Kataq habitat.  
