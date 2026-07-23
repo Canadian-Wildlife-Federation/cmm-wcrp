@@ -1,0 +1,47 @@
+# Progress Reporting {-}
+
+## Progress Reporting {-}
+
+This WCRP was initiated in 2023 through the collaboration of the CMM, CWF, and other members of the planning team (Table 7). Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of X structures has been assessed, and further habitat assessments were completed at X of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to X km of Plamu habitat and X km of Kataq habitat. 
+
+## Rehabilitated Barriers {-}
+
+In 2023, A CN rail line and culvert were blown out from the Ellershouse floods. In 2024, CWF was able to identify that this structure was a high-ranking structure in the broader WCRP project and provided consultation to Hatch Ltd. suggesting the road be decommissioned and the stream channel be remediated. The stream channel was ultimately remediated, restoring access to 0.97 km and 1.5 km of Plamu and Kataq habitat, respectively.
+
+```{r workplan, echo = FALSE, results = 'asis'}
+#| label: table-3
+#| tbl-cap: "Table 3. Barriers to Plamu and Kataq in the Maqmekwitk watershed that have been addressed (either through removal, replacement, or modification to improve passage) as of May 2026. Habitat gain represents the amount (km) of weighted upstream habitat that was reconnected by these projects."
+#| echo: false
+source("Rscripts/table_formatting.R")
+library("flextable")
+
+data <- read.csv("data/rehabilitated_structures_table.csv", check.names=FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```
+
+## Annual Progress Report {-}
+
+Since January 2025, the following actions were completed:
+
+- Barrier assessments were completed for 19 structures, resulting in 7 structures confirmed as barriers and 12 structures excluded as passable or non-existent, or because there was no habitat upstream. 
+
+- Funding was applied for to remediate 1 priority barrier but was unsuccessful.
+
+- The connectivity models were updated based on the above actions, and outputs were incorporated into this WCRP.
+
+## Priority Barriers {-}
+
+```{r workplan, echo = FALSE, results = 'asis'}
+#| label: table-4
+#| tbl-cap: "Table 4.Structures in the Maqmekwitk watershed that are confirmed as barriers to fish passage for Plamu and Kataq with confirmed habitat upstream, as of May 2026. Passability status represents the proportion of individuals (0, 0.25, 0.5, 0.75) that can pass upstream of a structure. Habitat gain represents the amount (km) of weighted habitat upstream of that barrier to the next structure that will be reconnected for Plamu and Kataq if that barrier is addressed. The number of structures in a set represents the number of structures that must be addressed concurrently to maximize habitat connectivity."
+#| echo: false
+source("Rscripts/table_formatting.R")
+library("flextable")
+
+data <- read.csv("data/priority_barriers_for_rehabilitation_table.csv", check.names=FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```

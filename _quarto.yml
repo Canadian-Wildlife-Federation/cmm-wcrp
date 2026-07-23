@@ -2,6 +2,9 @@ project:
   type: book
   output-dir: _book
 
+execute:
+  warning: false
+
 book:
   title: "Reconnecting Our Rivers"
   subtitle: "A Watershed Connectivity Restoration Plan for the Maqmekwitk (St. Croix) Watershed"
@@ -11,15 +14,17 @@ book:
   chapters:
     - index.qmd
     - content/project-overview.qmd
+    - content/glossary.qmd
+    - content/methods.qmd
     - content/connectivity-status.qmd
-    - content/structure-prioritization.qmd
     - content/work-planning.qmd
+    - content/progress-reporting.qmd
     - content/references.qmd
     - content/version-history.qmd
   appendices: 
-    - content/supplementary-information.qmd 
-    - content/wcrp-table.qmd
-    - content/appendix-c.qmd
+    - content/appendix-a.qmd 
+    - content/appendix-b.qmd
+
   
   
   

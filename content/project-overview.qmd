@@ -1,119 +1,30 @@
-```{python echo=FALSE}
-import python.api_calls as api
-from ipywidgets import *
-import pandas as pd
-import warnings
 
-warnings.filterwarnings('ignore')
-```
+# Introduction {-}
 
-```{r setup, include=FALSE}
-#| echo: false
-#| warning: false
+## Purpose{-}
 
-library(reticulate)
-api <- import("python.api_calls")
-gain <- api$gain
-num_dam <- api$num_dam
-km_dam <- api$km_dam
-pct_dam <- api$pct_dam
-resource_km <- api$resource_km
-resource_pct <- api$resource_pct
-demo_km <- api$demo_km
-demo_pct <- api$demo_pct
-resource_sev <- api$resource_sev
-demo_sev <- api$demo_sev
-sum_road <- api$sum_road
+The purpose of the Maqmekwitk Watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Plamu and Kataq in the Maqmekwitk (St. Croix) watershed and inform efforts to close knowledge gaps and plan and prioritize field assessments and restoration.
 
-```
+Local data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat.
 
-# Project Overview 
+This information is also used to inform and plan restoration efforts. Structure rankings inform restoration prioritization by summarizing what is known about fragmentation and showing the relative amount of habitat upstream of each barrier. Actual prioritization of restoration activities is a social decision that requires additional information, including the quality and condition of upstream habitat, the cultural importance of different areas within the watershed, and the costs and logistics of addressing each barrier relative to the ecological benefits of doing so. 
+
+As knowledge gaps are closed and barriers are addressed, this plan is revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures. 
 
 ## Vision Statement {-}
 
-Healthy, well-connected rivers within the Maqmekwitk watershed support populations of migratory fish including Plamu (Atlantic Salmon) and Kataq (American Eel), improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi'kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of human-made barriers, improving the resiliency of the watershed for the benefit and appreciation of all. 
+The vision for this WCRP is to have healthy, well-connected rivers within the Maqmekwitk watershed that support populations of migratory fish including Plamu and Kataq, improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi’kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of human-made barriers, improving the resiliency of the watershed for the benefit and appreciation of all.
 
-## Project Scope {-}
+## Scope {-}
 
-Connectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic species to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation (@Seliger2018-be). Though each of these factors are important when considering the health of a watershed, for the purpose of this project the term "connectivity" is defined as the degree to which aquatic species can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including human-made infrastructure such as dams and stream crossings, and natural features such as waterfalls. This plan will focus on the direct rehabilitation and prevention of localized, physical barriers instead of the broad, land-use patterns causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this watershed connectivity plan is addressing barriers to longitudinal connectivity (i.e., along the upstream-downstream plane) due to the importance of maintaining fish passage to spawning and rearing habitat in the watershed. 
+This WCRP focuses on habitat connectivity for Plamu and Kataq in the Maqmekwitk watershed (Figure 5). The Maqmekwitk (St. Croix), is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). 
 
-## Focal species
+Model outputs include an estimate of the current connectivity status along with structure ranks and counts. A connectivity model was developed for each species separately. For Plamu, we modelled the connectivity status of spawning and rearing habitat. Channel gradients most typically associated with these preferred spawning and rearing habitats range from 0.12 to 25%; with highest concentrations below 3% (Amiro 1993). For Kataq, we modelled the connectivity status of all 2+ order stream segments, to capture high-value habitat used for growth and feeding. 
 
-Focal species represent the ecologically and culturally important species for which habitat connectivity is being directly conserved and/or restored in the watershed. The planning team selected two target species: Plamu (Atlantic Salmon) and Kataq (American Eel). The selection of these key species was driven primarily by local conservation goals. 
+Connectivity models in this WCRP focus on longitudinal habitat fragmentation by anthropogenic structures, including all types of dams, stream crossings, and aboiteaux. Diffuse natural barriers that make entire areas impassible are not included in the models but may be used to define the scope of this WCRP. For example, a tributary that is inhospitable because of increased water temperature may be excluded from the overall spatial scope of the WCRP because restoration needs there are broader than connectivity.
 
-### Atlantic Salmon | Plamu | *Salmo salar* 
+![Figure 7: Map of the geographic scope of this connectivity restoration plan for Plamu and Kataq in the Maqmekwitk watershed in Nova Scotia. ](images/Figure 7.png){fig-cap-location="top"}
 
-Atlantic Salmon are anadromous fishes, meaning mature adults spawn in freshwater and juveniles rear in freshwater before undergoing a process called smoltification where they migrate out to the ocean for 1-3+ years before returning to the freshwater to repeat this process. Due to this migratory process, salmon require unimpeded access between the ocean and freshwater habitats to complete their life cycle.  
 
-Atlantic Salmon spawn in the pool-riffle transition zones of the main stem and larger tributaries of a river (@deGaudemar2000; @Finstad2010). Within these stretches, they seek out the tails of pools, where substrate size allows for females to excavate a space to deposit the eggs to incubate below gravel beds. Fast flowing, well oxygenated water with minimal fine sediments helps to maximize successful embryo development. Atlantic Salmon juveniles (fry and parr) rear in habitat that is deeper and slower, to facilitate their weaker swimming and predation capabilities. Water depth, velocity, and substrate size tend to increase with parr as they increase in size and age. Shelter, in the form of large rocks, boulders, or overhead cover provide crucial refuge for overwintering habitat. Channel gradients most typically associated with these preferred spawning and rearing habitats range from 0.12 to 25%; with highest concentrations below 3% (@Amiro1993).
 
-Salmon in the St. Croix watershed are a part of the Inner Bay of Fundy population that was last assessed by Committee on the Status of Endangered Wildlife in Canada (COSEWIC) as Endangered in 2010 (@Cosewic2010) and has been listed on the Schedule 1 of the Species at Risk Act since 2003.  
 
-### American Eel | Kataq | *Anguilla rostrata* 
-
-American Eel are catadromous species, meaning they spawn in the Sargasso Sea and drift with the ocean currents towards the continental shelf as glass eels. Elvers then continue migrating towards freshwater tributaries to feed and mature, although some populations have been known to stay in the estuaries and bays or move between freshwater and estuary habitat over their life cycle. Their ability to tolerate a wide variety of salinities and temperature thresholds allows them to occupy a variety of habitat types.  
-
-American Eel are widely distributed throughout Nova Scotia rivers, including the St. Croix, and occupy freshwater habitat and estuary habitat for feeding (on small fish, mollusks, insects, and crustaceans) and growth. American Eel were assessed as Threatened by COSEWIC in 2012 (@Cosewic2012). 
-
-## Geographic Scope
-
-The primary geographic scope of this watershed connectivity plan is the Maqmekwitk (St. Croix), which is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). The Maqmekwitk has a total drainage area of 746.7 km^2^ (@fig-geoscope). 
-
-![The primary geographic scope, the Maqmekwitk (St. Croix) watershed.](images/geo-scope-cmm.png){#fig-geoscope}
-
-The geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of human-made barriers. Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (@tbl-spn).While waterfalls >5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). As a result, all waterbodies were considered accessible in this iteration of the project.
-
-```{python echo=FALSE}
-#| label: tbl-spn
-#| tbl-cap: "Species-specific stream characteristics used to spatially delineate naturally accessible waterbodies and key habitat for Atlantic Salmon and American Eel."
-#| warning: false
-#| echo: false
- 
-import numpy as np
-from IPython.display import display
-import pandas as pd
- 
-data = pd.read_csv('data/species_names.csv', index_col=False, skip_blank_lines=False )
-def fix_table(val):
-    return str(val)
- 
-def highlighttab7(val):
-    red = '#ff0000;'
-    yellow = '#ffff00;'
-    lgreen = '#92d050;'
-    dgreen = '#03853e;'
- 
-    if val=="Medium" or val=="Need more information": color = yellow
-    elif val=="Very high" or val=="Very effective" : color = dgreen
-    elif val =="High" or val=="Effective": color = lgreen
-    else: color = 'white'
-    return 'background-color: %s' % color
- 
-data = data.replace(np.nan, '', regex=True)
- 
-data = data.applymap(fix_table)
- 
-data = data.style.applymap(highlighttab7).hide().set_properties(**{'text-align': 'left'})
-data.set_table_styles(
-   [{
-       'selector': 'th',
-       'props': [('background-color', '#008270'),('text-align', 'left')]
-   }])
- 
-```
-
-## Structure Types {-}
-
-The following section highlights three main human-made structure types (aboiteaux, dams, and stream crossings) that fragment key habitat for Plamu and Kataq in the Maqmekwitk watershed.
-
-### Aboiteaux {-}
-
-There are three modelled aboiteaux in the Maqmekwitk, each located close to the mouth of the Minas Basin. There may be more aboiteaux identified currently as stream crossings, but these will require further knowledge exchange, data review and field assessments to confirm. One aboiteau is a confirmed barrier but is low priority due to the low-quality upstream habitat and difficulty in addressing this barrier type.  
-
-### Dams {-}
-
-There are seven mapped dams that potentially block a combined 154 km of linear salmon and eel habitat in the Maqmekwitk. One smaller dam is located downstream of Fundy Gypsum Mine Yard, one is unknown and requires a field assessment, and five generate hydroelectricity. A set of three hydroelectric dams owned and operated by Minas Energy block the largest proportion of salmon habitat (39%; ~119km of linear habitat) amongst all modelled structure types in the Maqmekwitk watershed. 
-
-### Stream Crossings {-}
-
-Stream crossings (i.e., culverts) are the most abundant structure type in the watershed, with 485 stream crossings located downstream of modelled key habitat for Plamu or Kataq. Stream crossings fully or partially block 385 km of salmon and eel habitat. Detailed assessments by CMM were previously completed on 82 stream crossings located downstream of salmon and eel key habitat. Of these 82 structures, nine were in the top 30 ranked sets. 

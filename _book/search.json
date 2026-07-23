@@ -4,194 +4,324 @@
     "href": "index.html",
     "title": "Reconnecting Our Rivers",
     "section": "",
-    "text": "Homepage\nThe following Reconnecting our Rivers project represents the culmination of a collaborative planning effort with the Confederacy of Mainland Mi’kmaq (CMM) and the Canadian Wildlife Federation (CWF). The overall aim is to build meaningful partnerships, reduce the threat of aquatic barriers to diadromous fish and the livelihoods that they support. This plan will identify priority actions that CMM, CWF, and other project partners propose to undertake between 2023-2033 to preserve and restore fish connectivity in the Maqmekwitk (St. Croix) watershed, with additional watersheds being added in future years (including Shubenacadie and Stewiacke River). This will be done through addressing physical barriers to fish passage. This watershed connectivity plan will be shared with local First Nations, Fisheries and Oceans Canada (DFO), the NS Government, NGOs, and local stakeholders to inform directed efforts to improve fish productivity and diversity in these watersheds.",
+    "text": "Executive Summary\nThe following Reconnecting our Rivers project represents the culmination of a collaborative planning effort with the Confederacy of Mainland Mi’kmaq (CMM) and the Canadian Wildlife Federation (CWF). The purpose of the Maqmekwitk watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Plamu (Atlantic Salmon, Salmon salar) and Kataq (American Eel, Anguilla Rostrata) in the Maqmekwitk (St. Croix) watershed and inform efforts to close knowledge gaps and plan and prioritize restoration. Local data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat, and informing restoration prioritization. As knowledge gaps are closed and barriers are addressed, this plan will be revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures. Atlantic Salmon and American Eel are known as Plamu and Kataq in the Mi’kmaw language and will be referred to as such throughout this document.",
     "crumbs": [
-      "Homepage"
+      "Executive Summary"
+    ]
+  },
+  {
+    "objectID": "index.html#current-connectivity-status",
+    "href": "index.html#current-connectivity-status",
+    "title": "Reconnecting Our Rivers",
+    "section": "Current Connectivity Status",
+    "text": "Current Connectivity Status\nIn the Maqmekwitk watershed, 218.23 km of Plamu habitat are currently connected to the ocean and 266.67 km are disconnected from it. This means that 45.01% of the 484.90 km of total habitat is connected.\nIn the Maqmekwitk watershed, 191.80 km of Kataq habitat are currently connected to the ocean and 216.67 km are disconnected from it. This means that 46.96% of the 408.46 km of total habitat is connected.",
+    "crumbs": [
+      "Executive Summary"
+    ]
+  },
+  {
+    "objectID": "index.html#structure-count",
+    "href": "index.html#structure-count",
+    "title": "Reconnecting Our Rivers",
+    "section": "Structure Count",
+    "text": "Structure Count\nIn the Maqmekwitk watershed, 515 structures potentially disconnect Plamu habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 505 require further field assessment.\nIn the Maqmekwitk watershed, 176 structures potentially disconnect Kataq habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 167 require further field assessment.\n\n\n\nFigure 1: Map of Plamu habitat and structures that are confirmed or potential barriers to fish passage in the Maqmekwitk watershed as of May 2026. Structure data were obtained from NSFishPass and the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Plamu could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Plamu for spawning and rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). A\n\n\n\n\n\nFigure 2: Map of Kataq habitat and structures that are confirmed or potential barriers to fish passage in the Stewiacke watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Kataq could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Kataq for growth and feeding. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). A\n\n\n\n\n\nFigure 3: Habitat Accumulation Curve (HAC) showing all structures (n=515) in the Maqmekwitk watershed that potentially block Plamu habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown.\n\n\n\n\n\nFigure 4: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=32) in the Maqmekwitk watershed that potentially block Plamu habitat and are labelled in Figure 1, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.\n\n\n\n\n\nFigure 5: Habitat Accumulation Curve (HAC) showing all structures (n=176) in the Maqmekwitk watershed that potentially block Kataq habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. .\n\n\n\n\n\nFigure 6: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=31) in the Maqmekwitk watershed that potentially block Kataq habitat, and are labelled in Figure 2, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.",
+    "crumbs": [
+      "Executive Summary"
+    ]
+  },
+  {
+    "objectID": "index.html#progress-summary",
+    "href": "index.html#progress-summary",
+    "title": "Reconnecting Our Rivers",
+    "section": "Progress Summary",
+    "text": "Progress Summary\nThis WCRP was initiated in 2023 through the collaboration of CMM, CWF, and other members of the planning team. Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of 36 structures has been assessed, and further habitat assessments were completed at 0 of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to 0.97 km of Plamu habitat and 1.5 km of Kataq habitat.",
+    "crumbs": [
+      "Executive Summary"
     ]
   },
   {
     "objectID": "content/project-overview.html",
     "href": "content/project-overview.html",
-    "title": "1  Project Overview",
+    "title": "Introduction",
     "section": "",
-    "text": "Vision Statement\nHealthy, well-connected rivers within the Maqmekwitk watershed support populations of migratory fish including Plamu (Atlantic Salmon) and Kataq (American Eel), improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi’kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of human-made barriers, improving the resiliency of the watershed for the benefit and appreciation of all.",
+    "text": "Purpose\nThe purpose of the Maqmekwitk Watershed Connectivity Restoration Plan (WCRP) is to improve understanding of habitat connectivity for Plamu and Kataq in the Maqmekwitk (St. Croix) watershed and inform efforts to close knowledge gaps and plan and prioritize field assessments and restoration.\nLocal data and knowledge are combined with connectivity modelling to estimate current connectivity status and identify structures that potentially block the most habitat. This informs the prioritization of field assessments to close the most significant knowledge gaps efficiently. Information from field assessments of barrier status and habitat condition are incorporated into the model, improving understanding of which barriers block the most habitat.\nThis information is also used to inform and plan restoration efforts. Structure rankings inform restoration prioritization by summarizing what is known about fragmentation and showing the relative amount of habitat upstream of each barrier. Actual prioritization of restoration activities is a social decision that requires additional information, including the quality and condition of upstream habitat, the cultural importance of different areas within the watershed, and the costs and logistics of addressing each barrier relative to the ecological benefits of doing so.\nAs knowledge gaps are closed and barriers are addressed, this plan is revised to summarize progress and provide updated estimates of connectivity status and the status and relative importance of remaining structures.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "content/project-overview.html#project-scope",
-    "href": "content/project-overview.html#project-scope",
-    "title": "1  Project Overview",
-    "section": "Project Scope",
-    "text": "Project Scope\nConnectivity is a critical component of freshwater ecosystems that encompasses a variety of factors related to ecosystem structure and function, such as the ability of aquatic species to disperse and/or migrate, the transportation of energy and matter (e.g., nutrient cycling and sediment flows), and temperature regulation (Seliger & Zeiringer (2018)). Though each of these factors are important when considering the health of a watershed, for the purpose of this project the term “connectivity” is defined as the degree to which aquatic species can disperse and/or migrate freely through freshwater systems. Within this context, connectivity is primarily constrained by physical barriers, including human-made infrastructure such as dams and stream crossings, and natural features such as waterfalls. This plan will focus on the direct rehabilitation and prevention of localized, physical barriers instead of the broad, land-use patterns causing chronic connectivity issues in the watershed. The planning team decided that the primary focus of this watershed connectivity plan is addressing barriers to longitudinal connectivity (i.e., along the upstream-downstream plane) due to the importance of maintaining fish passage to spawning and rearing habitat in the watershed.",
+    "objectID": "content/project-overview.html#vision-statement",
+    "href": "content/project-overview.html#vision-statement",
+    "title": "Introduction",
+    "section": "Vision Statement",
+    "text": "Vision Statement\nThe vision for this WCRP is to have healthy, well-connected rivers within the Maqmekwitk watershed that support populations of migratory fish including Plamu and Kataq, improving the overall ecosystem health of the watershed. In turn, these fish provide the continued food, social, and ceremonial (FSC) needs of the Mi’kmaw people, as they have since time immemorial. Both residents and visitors to the watershed will work together, guided by the principles of Etuaptmumk (two-eyed seeing), to mitigate the negative effects of human-made barriers, improving the resiliency of the watershed for the benefit and appreciation of all.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "content/project-overview.html#focal-species",
-    "href": "content/project-overview.html#focal-species",
-    "title": "1  Project Overview",
-    "section": "1.1 Focal species",
-    "text": "1.1 Focal species\nFocal species represent the ecologically and culturally important species for which habitat connectivity is being directly conserved and/or restored in the watershed. The planning team selected two target species: Plamu (Atlantic Salmon) and Kataq (American Eel). The selection of these key species was driven primarily by local conservation goals.\n\n1.1.1 Atlantic Salmon | Plamu | Salmo salar\nAtlantic Salmon are anadromous fishes, meaning mature adults spawn in freshwater and juveniles rear in freshwater before undergoing a process called smoltification where they migrate out to the ocean for 1-3+ years before returning to the freshwater to repeat this process. Due to this migratory process, salmon require unimpeded access between the ocean and freshwater habitats to complete their life cycle.\nAtlantic Salmon spawn in the pool-riffle transition zones of the main stem and larger tributaries of a river (De Gaudemar, Bonzom, & Beall (2000); Finstad, Armstrong, & Nislow (2010)). Within these stretches, they seek out the tails of pools, where substrate size allows for females to excavate a space to deposit the eggs to incubate below gravel beds. Fast flowing, well oxygenated water with minimal fine sediments helps to maximize successful embryo development. Atlantic Salmon juveniles (fry and parr) rear in habitat that is deeper and slower, to facilitate their weaker swimming and predation capabilities. Water depth, velocity, and substrate size tend to increase with parr as they increase in size and age. Shelter, in the form of large rocks, boulders, or overhead cover provide crucial refuge for overwintering habitat. Channel gradients most typically associated with these preferred spawning and rearing habitats range from 0.12 to 25%; with highest concentrations below 3% (Amiro (1993)).\nSalmon in the St. Croix watershed are a part of the Inner Bay of Fundy population that was last assessed by Committee on the Status of Endangered Wildlife in Canada (COSEWIC) as Endangered in 2010 (COSEWIC (2010)) and has been listed on the Schedule 1 of the Species at Risk Act since 2003.\n\n\n1.1.2 American Eel | Kataq | Anguilla rostrata\nAmerican Eel are catadromous species, meaning they spawn in the Sargasso Sea and drift with the ocean currents towards the continental shelf as glass eels. Elvers then continue migrating towards freshwater tributaries to feed and mature, although some populations have been known to stay in the estuaries and bays or move between freshwater and estuary habitat over their life cycle. Their ability to tolerate a wide variety of salinities and temperature thresholds allows them to occupy a variety of habitat types.\nAmerican Eel are widely distributed throughout Nova Scotia rivers, including the St. Croix, and occupy freshwater habitat and estuary habitat for feeding (on small fish, mollusks, insects, and crustaceans) and growth. American Eel were assessed as Threatened by COSEWIC in 2012 (COSEWIC (2012)).",
+    "objectID": "content/project-overview.html#scope",
+    "href": "content/project-overview.html#scope",
+    "title": "Introduction",
+    "section": "Scope",
+    "text": "Scope\nThis WCRP focuses on habitat connectivity for Plamu and Kataq in the Maqmekwitk watershed (Figure 5). The Maqmekwitk (St. Croix), is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River).\nModel outputs include an estimate of the current connectivity status along with structure ranks and counts. A connectivity model was developed for each species separately. For Plamu, we modelled the connectivity status of spawning and rearing habitat. Channel gradients most typically associated with these preferred spawning and rearing habitats range from 0.12 to 25%; with highest concentrations below 3% (Amiro 1993). For Kataq, we modelled the connectivity status of all 2+ order stream segments, to capture high-value habitat used for growth and feeding.\nConnectivity models in this WCRP focus on longitudinal habitat fragmentation by anthropogenic structures, including all types of dams, stream crossings, and aboiteaux. Diffuse natural barriers that make entire areas impassible are not included in the models but may be used to define the scope of this WCRP. For example, a tributary that is inhospitable because of increased water temperature may be excluded from the overall spatial scope of the WCRP because restoration needs there are broader than connectivity.\n\n\n\nFigure 7: Map of the geographic scope of this connectivity restoration plan for Plamu and Kataq in the Maqmekwitk watershed in Nova Scotia.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "content/project-overview.html#geographic-scope",
-    "href": "content/project-overview.html#geographic-scope",
-    "title": "1  Project Overview",
-    "section": "1.2 Geographic Scope",
-    "text": "1.2 Geographic Scope\nThe primary geographic scope of this watershed connectivity plan is the Maqmekwitk (St. Croix), which is the larger branch of the Amaqapskiket (Avon River) and drains into the Minas Basin, Bay of Fundy, NS. There are three main branches of the Maqmekwitk, the branch that passes through Panuk, the Herbert River, and the Miluamkitk (Meander River). The Maqmekwitk has a total drainage area of 746.7 km2 (Figure 1.1).\n\n\n\n\n\n\nFigure 1.1: The primary geographic scope, the Maqmekwitk (St. Croix) watershed.\n\n\n\nThe geographic scope of this project was further refined by identifying naturally accessible waterbodies, which are defined as streams, lakes, or reservoirs that target species would access in the absence of human-made barriers. Naturally accessible waterbodies were spatially delineated using stream characteristics that define the upper limit of their movement based on species-specific swimming abilities (Table 1.1).While waterfalls &gt;5m were used as the upper limit for Atlantic Salmon accessibility, our ability to comprehensively model this was limited by incomplete height data for all waterfalls. Future iterations of this project will include field assessment and compilation of local knowledge of waterfall height to further define these boundaries. The spatial extent of the naturally accessible waterbodies layer was then refined based on existing fish observation data and/or redd surveys (for Atlantic Salmon). As a result, all waterbodies were considered accessible in this iteration of the project.\n\n\n\n\nTable 1.1: Species-specific stream characteristics used to spatially delineate naturally accessible waterbodies and key habitat for Atlantic Salmon and American Eel.\n\n\n\n\n\n\n\n\n\nSpecies\nAccessibility Parameters\n\n\n\n\nPlamu, Atlantic Salmon \nChannel gradient &lt;30%; waterfalls &lt;5m \n\n\nKataq, American Eel \nAll stream segments",
+    "objectID": "content/glossary.html",
+    "href": "content/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "General Terms",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Glossary"
     ]
   },
   {
-    "objectID": "content/project-overview.html#structure-types",
-    "href": "content/project-overview.html#structure-types",
-    "title": "1  Project Overview",
-    "section": "Structure Types",
-    "text": "Structure Types\nThe following section highlights three main human-made structure types (aboiteaux, dams, and stream crossings) that fragment key habitat for Plamu and Kataq in the Maqmekwitk watershed.\n\nAboiteaux\nThere are three modelled aboiteaux in the Maqmekwitk, each located close to the mouth of the Minas Basin. There may be more aboiteaux identified currently as stream crossings, but these will require further knowledge exchange, data review and field assessments to confirm. One aboiteau is a confirmed barrier but is low priority due to the low-quality upstream habitat and difficulty in addressing this barrier type.\n\n\nDams\nThere are seven mapped dams that potentially block a combined 154 km of linear salmon and eel habitat in the Maqmekwitk. One smaller dam is located downstream of Fundy Gypsum Mine Yard, one is unknown and requires a field assessment, and five generate hydroelectricity. A set of three hydroelectric dams owned and operated by Minas Energy block the largest proportion of salmon habitat (39%; ~119km of linear habitat) amongst all modelled structure types in the Maqmekwitk watershed.\n\n\nStream Crossings\nStream crossings (i.e., culverts) are the most abundant structure type in the watershed, with 485 stream crossings located downstream of modelled key habitat for Plamu or Kataq. Stream crossings fully or partially block 385 km of salmon and eel habitat. Detailed assessments by CMM were previously completed on 82 stream crossings located downstream of salmon and eel key habitat. Of these 82 structures, nine were in the top 30 ranked sets.\n\n\n\n\nAmiro, P. (1993). Habitat measurement and population estimation of juvenile atlantic salmon (salmo salar). Canadian Special Publication of Fisheries; Aquatic Sciences: Department of Fisheries; Oceans.\n\n\nCOSEWIC. (2010). COSEWIC assessment and status report on the atlantic salmon salmo salar (nunavik population, labrador population, northeast newfoundland population, south newfoundland population, southwest newfoundland population, northwest newfoundland population, quebec eastern north shore population, quebec western north shore population, anticosti island population, inner st. Lawrence population, lake ontario population, gaspé-southern gulf of st. Lawrence population, eastern cape breton population, nova scotia southern upland population, inner bay of fundy population, outer bay of fundy population) in canada. https://ecprccsarstacct.z9.web.core.windows.net/files/SARAFiles/legacy/cosewic/sr_Atlantic_Salmon_2011a_e.pdf: ECCC.\n\n\nCOSEWIC. (2012). COSEWIC assessment and status report on the american eel anguilla rostrata in canada. https://ecprccsarstacct.z9.web.core.windows.net/files/SARAFiles/legacy/cosewic/sr_anguille_amer_eel_1012_e.pdf: ECCC.\n\n\nDe Gaudemar, B., Bonzom, J. M., & Beall, E. (2000). Development and stability of barrier beaches on the atlantic coast of nova scotia. Journal of Fish Biology, 57, 502–515.\n\n\nFinstad, A. G., Armstrong, J. D., & Nislow, K. H. (2010). Freshwater habitat requirements of atlantic salmon (pp. 67–87). Northwest Fisheries Center: Wiley-Blackwell.\n\n\nSeliger, C., & Zeiringer, B. (2018). River connectivity, habitat fragmentation and related restoration measures. 171–186.",
+    "objectID": "content/glossary.html#general-terms",
+    "href": "content/glossary.html#general-terms",
+    "title": "Glossary",
+    "section": "",
+    "text": "Freshwater connectivity\nThe degree to which aquatic species can move, disperse, or migrate freely through freshwater systems.\n\n\nFocal species or guilds\nThe ecologically and culturally important species (e.g., Westslope Cutthroat Trout) or groups of species for which habitat connectivity is being conserved or restored.\n\n\nStructure\nA feature, either anthropogenic (e.g., culvert, dam) or a temporary natural feature (e.g., barrier beach, debris jam) that may fragment freshwater systems and limit the ability of species to disperse and/or migrate freely within their naturally accessible habitat. Differentiated from more permanent natural features, such as waterfalls, that delineate naturally-accessible waterbodies.\n\n\nSet of structures\nA set of two or more structures that must be addressed/considered together to achieve a combined increase in habitat connectivity.\n\n\nPartial Passability\nStructures that pass some individuals but not all. This includes structures that are passable only during certain seasons or flow conditions, structures that pass certain species or life stages but not others, or structures that only a subset of similar individuals typically pass.\n\n\nCurrent connectivity status\nthe measure (i.e., amount, proportion, or index) of habitat that is currently connected for each focal species, assuming that all unassessed structures are barriers. \n\n\nRank\nThe relative importance of a structure (individually and/or in sets) based on the amount (km) of habitat blocked by it. For sets of structures, the total amount of habitat blocked by the set is averaged by the number of barriers in the set.\n\n\nHabitat\nKey habitat that is likely to support important life stages for focal species (i.e., spawning and rearing), rather than simply movement corridors.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "content/glossary.html#structure-status-terms",
+    "href": "content/glossary.html#structure-status-terms",
+    "title": "Glossary",
+    "section": "Structure Status Terms",
+    "text": "Structure Status Terms\n\nUnassessed structures\nMapped structures that have not been assessed in the field.\n\n\nExcluded Structures\nStructures that were investigated and removed from consideration or the model because they do not exist, are passable, or that no habitat was found upstream.\n\n\nData-deficient barriers\nStructures that have had some form of assessment but need further investigation before a decision can be made as to whether they will be listed as a priority.\n\n\nPriority barrier\nStructures that were assessed as barriers with habitat upstream, and for which fish-passage rehabilitation is being pursued.\n\n\nNon-actionable barriers\nStructures that were assessed as barriers with habitat upstream, but for which fish-passage rehabilitation is not being actively pursued.\n\n\nRehabilitated barriers\nBarriers that were removed, replaced, or modified to improve fish passage.",
+    "crumbs": [
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "content/methods.html",
+    "href": "content/methods.html",
+    "title": "Methods",
+    "section": "",
+    "text": "Accessibility Model\nNaturally accessible waterbodies are those that would likely be accessible to focal species if no human-made barriers existed on the landscape. This is treated as a proxy baseline for the historic distribution. Naturally accessible waterbodies were identified based on natural barriers (i.e., waterfalls &gt; 5m and stream gradients &gt; 30%) that would naturally limit upstream movement. Modelled natural barriers were excluded if focal species observations existed upstream of them.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "content/methods.html#habitat-model",
+    "href": "content/methods.html#habitat-model",
+    "title": "Methods",
+    "section": "Habitat Model",
+    "text": "Habitat Model\nA subset of the naturally accessible waterbody layer that is defined as key habitat (e.g., habitat likely to support spawning or rearing) (henceforth habitat), rather than simply being used as a movement corridor. An intrinsic potential modelling approach was used to identify areas that have the potential to support spawning or rearing for Atlantic Salmon based on channel gradients &lt; 3% (Amiro 1993). Habitat model outputs are overruled by field data and local knowledge of habitat condition and use.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "content/methods.html#connectivity-modelling",
+    "href": "content/methods.html#connectivity-modelling",
+    "title": "Methods",
+    "section": "Connectivity Modelling",
+    "text": "Connectivity Modelling\nThe overall model used to estimate connectivity status and rank structures. A layer of known or modelled structures was overlaid on the habitat model output. Modelled stream crossings were created from stream network and road/railway Geographic Information System (GIS) data, by mapping where a road or railway crosses a stream. Dam data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). All mapped dams and modelled crossings (henceforth structures) downstream of habitat were considered, but some were classified as non-existent or passable prior to initiating field work and excluded from the model. Stream crossings on 6th order and larger streams were assumed to be bridges and classified as passable, as were those identified as bridges in available infrastructure spatial layers. Remaining structures downstream of habitat were checked on Google Earth to exclude structures if it could be visibly confirmed that they did not exist or were bridges or cross-ditches. Data from previous field assessments were incorporated, and structures identified as passable were excluded. Assessed barriers, dams lacking fishways, and unassessed structures were all treated as barriers in the connectivity model. If barriers were presumed to be partially passable, the degree of passability was estimated (25%, 50%, or 75%), and the amount of habitat upstream of that barrier was downweighted according to the passability of all downstream barriers. For example, a 10-km habitat patch with two downstream partial barriers (both with 50% passability) would represent 2.5 km of weighted habitat.\nLocal knowledge and data were incorporated into model development in two phases and typically overruled modelled outputs where the two differed. Existing reports on habitat, barriers, and fish distributions, when available, were incorporated into the initial model outputs. Maps of initial outputs were then shared with local knowledge holders, who identified model errors or omissions (e.g., unmapped structures, mapped structures that do not exist, known spawning or rearing habitat that was not identified by the model, habitat identified by the model that is known to be inaccessible or unsuitable). The status of closed-bottom structures identified as passable by local knowledge may not have been adjusted until confirmed by field assessments.\nModels were run to produce initial connectivity outputs, and maps were created showing disconnected habitat and associated structures. Connectivity status was estimated by calculating the proportion of habitat that is connected to the ocean (i.e., not fragmented by human-made barriers). Habitat with no structures or only passable structures downstream was considered connected. Habitat amount was calculated in linear kilometers downweighted according to the passability of all downstream barriers and by stream order, with first-order streams downweighted by 75%, and second-order streams downweighted by 25%.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "content/methods.html#structure-ranking",
+    "href": "content/methods.html#structure-ranking",
+    "title": "Methods",
+    "section": "Structure Ranking",
+    "text": "Structure Ranking\nStructures were ranked by the amount of weighted habitat upstream, with the highest ranked structure given a rank of 1. Unassessed structures were considered barriers for ranking purposes. Ranks generally represent the relative amount of habitat upstream. Actual ranking processes are more complex to account for situations where multiple barriers may need to be addressed to reconnect habitat. Barriers with the most upstream habitat may not provide any benefits to focal species until downstream barriers are addressed.\nTo manage this, both the overall habitat upstream, and immediate gains (i.e., the amount of habitat to the next structure) are incorporated into the ranking process. This ensures that the first structure encountered by fish is given a high rank, even if, for example, it only blocks only 1 km of habitat. Conversely, a structure blocking 20 km of habitat may be given a lower rank if many downstream structures must be addressed before those gains can be realized.\nStructures are also combined into sets by considering which configuration of groups of up to five structures provides the greatest per-barrier habitat gain. Sets are often identified sequentially by first identifying optimal downstream set configurations, then considering additional upstream sets.\nStream order is also factored into the ranking process, to avoid overvaluing structures where most of the upstream habitat comprises small streams with more limited habitat value. First-order streams are downweighted by 75%, and second-order streams are downweighted by 25%.",
+    "crumbs": [
+      "Methods"
     ]
   },
   {
     "objectID": "content/connectivity-status.html",
     "href": "content/connectivity-status.html",
-    "title": "2  Connectivity Status Assessment",
+    "title": "Connectivity Status Results",
     "section": "",
-    "text": "Connectivity Status Assessment\nThe current connectivity status for each species was estimated using three spatial models:\nAll connected habitats were summed and divided by the total amount of key habitat in the watershed to determine the proportion of connected habitat relative to the entire watershed. Of the estimated 758 km of key spawning and rearing habitat for Plamu in the Maqmekwitk watershed, 30.54% (231.6 km) is connected to the ocean (Figure 2.3). Similarly, of the 464.9 km of key eel habitat (used for feeding and growth) in the Maqmekwitk watershed, 32.71% (152 km) is connected to the ocean (Figure 2.4). These values are likely an underestimate of how connected the system, and additional field assessments and local knowledge exchange to confirm species-specific passability for potential barriers will help to close those knowledge gaps and ensure a more accurate estimate of connectivity status.",
+    "text": "Current Connectivity Status\nIn the Maqmekwitk watershed, 218.23 km of Plamu habitat are currently connected to the ocean and 266.67 km are disconnected from it. This means that 45.01% of the 484.90 km of total habitat is connected.\nIn the Maqmekwitk watershed, 191.80 km of Kataq habitat are currently connected to the ocean and 216.67 km are disconnected from it. This means that 46.96% of the 408.46 km of total habitat is connected.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Connectivity Status Assessment</span>"
+      "Connectivity Status Results"
     ]
   },
   {
-    "objectID": "content/connectivity-status.html#connectivity-status-assessment",
-    "href": "content/connectivity-status.html#connectivity-status-assessment",
-    "title": "2  Connectivity Status Assessment",
-    "section": "",
-    "text": "Accessibility model: Naturally accessible waterbodies are those that are considered likely accessible to focal species if no human-made barriers existed on the landscape. These were spatially delineated for each focal species using natural barriers (i.e., waterfalls, gradient barriers, or subsurface flows) that would limit upstream movement (Table 1.1).\nHabitat model: A subset of the naturally accessible waterbody layer was defined as key habitat likely to support important life stages, rather than simply movement corridors. The habitat model identifies waterbodies that have a higher potential to support key habitat based on stream characteristics like channel gradient and discharge. The habitat model criteria used were channel gradients &lt;3% for Plamu (Figure 2.1) and streams with a strahler order of 2 or higher for Kataq (Figure 2.2).\nConnectivity model: A layer of known or modelled structures was overlaid on the key habitat results. Structures with unknown passability were treated as a full barrier until confirmed passable (100% passable) or partially passable (25, 50, or 75%) by either local knowledge, desktop review, or field assessment. Watershed connectivity was estimated by calculating the amount of key habitat that is connected to the ocean (i.e., not fragmented by human-made barriers). Key habitat with only passable structures downstream was considered fully connected. All key habitat with any full barrier downstream was considered disconnected.\n\n\n\n\n\n\n\nFigure 2.1: Key habitat (channel gradient &lt;3%) and naturally accessible waterbodies (&lt;30% channel gradient and &lt;5m waterfalls) to Plamu (Atlantic Salmon) within the Maqmekwitk (St. Croix) watershed.\n\n\n\n\n\n\n\n\n\nFigure 2.2: Key habitat (strahler order 2+) and naturally accessible waterbodies (all stream segments) to Kataq (American Eel) within the Maqmekwitk (St. Croix) watershed.\n\n\n\n\n\n\n\n\n\n\nFigure 2.3: Connected (light blue) and disconnected (red) key habitat for Plamu in the Maqmekwitk watershed. Atlantic Salmon connectivity status was estimated as 30.54%.\n\n\n\n\n\n\n\n\n\nFigure 2.4: Connected (light blue) and disconnected (red) key habitat for Kataq in the Maqmekwitk watershed. American Eel connectivity status was estimated as 32.71%.",
+    "objectID": "content/connectivity-status.html#structure-count",
+    "href": "content/connectivity-status.html#structure-count",
+    "title": "Connectivity Status Results",
+    "section": "Structure Count",
+    "text": "Structure Count\nIn the Maqmekwitk watershed, 515 structures potentially disconnect Plamu habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 505 require further field assessment.\nIn the Maqmekwitk watershed, 176 structures potentially disconnect Kataq habitat. Of these, 8 are identified as barriers in need of rehabilitation (priority barriers), 0 are identified as barriers that do not warrant rehabilitation (non-actionable), and 167 require further field assessment.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Connectivity Status Assessment</span>"
+      "Connectivity Status Results"
     ]
   },
   {
-    "objectID": "content/structure-prioritization.html",
-    "href": "content/structure-prioritization.html",
-    "title": "3  Structure Prioritization",
-    "section": "",
-    "text": "Maqmekwitk (St. Croix) Watershed Structure Prioritization Summary\nThe primary goal of Reconnecting our Rivers is to restore connectivity to Plamu and Kataq habitat in the Maqmekwitk watershed. To achieve this goal, the plan will guide which structures to assess in the field, and subsequently, which barriers to address (i.e., remove or replace the barrier, or temporarily add fish passage). To maximize conservation efforts/resources towards achieving this goal, it is imperative to identify a suite of barriers that, if addressed, will provide the largest, most important contribution towards restored connectivity of salmon and eel habitat. The following section outlines the ranking process to identify the list of barriers.",
+    "objectID": "content/connectivity-status.html#maps",
+    "href": "content/connectivity-status.html#maps",
+    "title": "Connectivity Status Results",
+    "section": "Maps",
+    "text": "Maps\n\n\n\nFigure 1: : Map of Plamu habitat and structures that are confirmed or potential barriers to fish passage in the Maqmekwitk watershed as of May 2026. Structure data were obtained from NSFishPass and the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Plamu could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Plamu for spawning and rearing. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures).  A\n\n\n\n\n\nFigure 2: Map of Kataq habitat and structures that are confirmed or potential barriers to fish passage in the Stewiacke watershed as of May 2026. Structure data were obtained from the Canadian Aquatic Barriers Database (aquaticbarriers.ca). The accessibility model represents areas of the watershed that Kataq could access naturally in the absence of anthropogenic barriers. The habitat model represents the subset of accessible waterbodies that may be used by Kataq for growth and feeding. Available local knowledge and data were incorporated and overruled habitat model results. Thick orange lines represent partially disconnected habitat (upstream of a partial barrier), and thick red lines represent habitat considered to be fully disconnected (upstream of barriers or unassessed structures). A",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Structure Prioritization</span>"
+      "Connectivity Status Results"
     ]
   },
   {
-    "objectID": "content/structure-prioritization.html#field-assessment-ranking-process",
-    "href": "content/structure-prioritization.html#field-assessment-ranking-process",
-    "title": "3  Structure Prioritization",
-    "section": "Field Assessment Ranking Process",
-    "text": "Field Assessment Ranking Process\nAfter all existing data and knowledge are collated for known and modelled crossings, an iterative ranking process is conducted to help confirm barriers to target for rehabilitation to meet the goals. The ranking process is primarily used to guide field assessments and maximize efficiency in ground truthing data/knowledge inputs and model outputs, while providing a secondary purpose to evaluate the relative key habitat gains of confirmed barriers in the watershed. This process, combined with input from local knowledge holders and experts, is used to develop field plans for assessing structures that have the potential to block the most key habitat in the watershed.\nField assessments can include an assessment of either the passability status of a structure (whether fish can pass upstream, and to what degree), whether the upstream habitat is suitable for the focal species, and whether there are other undocumented human-made or natural barriers upstream or downstream.\nThe ranking process accounts for the long-term and immediate potential habitat gains potentially offered by each structure to identify structures that maximize long-term and immediate potential to improve key habitat connectivity in the watershed. All structures in the watershed (excluding those confirmed as passable) were ranked and a subset of those structures were selected by the planning team to assess in the 2024 field season. Details of the ranking process used to guide field assessments can be found in (Appendix A).",
+    "objectID": "content/connectivity-status.html#habitat-accumulation-curves",
+    "href": "content/connectivity-status.html#habitat-accumulation-curves",
+    "title": "Connectivity Status Results",
+    "section": "Habitat Accumulation Curves",
+    "text": "Habitat Accumulation Curves\n\n\n\nFigure 3: Habitat Accumulation Curve (HAC) showing all structures (n=515) in the Maqmekwitk watershed that potentially block Plamu habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown.\n\n\n\n\n\nFigure 4: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=32) in the Maqmekwitk watershed that potentially block Plamu habitat and are labelled in Figure 1, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Plamu is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 75% for first-order streams and 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.\n\n\n\n\n\nFigure 5: Habitat Accumulation Curve (HAC) showing all structures (n=176) in the Maqmekwitk watershed that potentially block Kataq habitat, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. .\n\n\n\n\n\nFigure 6: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=31) in the Maqmekwitk watershed that potentially block Kataq habitat, and are labelled in Figure 2, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Structure Prioritization</span>"
-    ]
-  },
-  {
-    "objectID": "content/structure-prioritization.html#summary",
-    "href": "content/structure-prioritization.html#summary",
-    "title": "3  Structure Prioritization",
-    "section": "Summary",
-    "text": "Summary\nFollowing field assessments, structures are placed on one of five possible lists:\n\nPriority barriers list – the structure is confirmed as 0, 25, 50, or 75% passable, has key habitat confirmed to exist upstream, and is considered actionable by the planning team (i.e., action items will be identified to address passability of the barrier). Depending on the barrier, owner, financial constraints, and quality of upstream habitat, the action may be to leave to end of life cycle before reviewing again, remove and decommission the road, replace with a new passable structure, or modify to temporarily restore connectivity (e.g., fish ladder or baffles installed (Table 3.1)).\nAssessed structures that remain data deficient list – some form of field assessment has been completed on the structure, but further investigation is required to confirm either the passability status or upstream habitat.\nRehabilitated barriers list – priority barriers that have been addressed (either through removal, replacement, or temporary fish passage improvement projects (Table 3.2)).\nNon-actionable barriers list – the structure is confirmed to be a barrier to fish passage and have some amount/quality of habitat upstream, but the planning team will not identify actions to address passability of the barrier because of logistic considerations (e.g., financial costs), short habitat gain, or the upstream habitat is of poor quality or unsuitable in its present condition to support key life stages of the focal species.\nExcluded structures list – the structure is excluded from further consideration in subsequent ranking and work planning because the structure is confirmed passable (e.g., bridge), not present, or there is no key habitat upstream (Appendix B).\n\n\n\n\nTable 3.1: The Maqmekwitk watershed priority barrier list, which includes barriers that have undergone field assessment, been reviewed by the planning team, and selected to be addressed (whether removed, replaced with a passable structure, or provided temporary fish passage).AS = Atlantic Salmon; AE = American Eel; CBS = closed bottom structure.\n\n\nBarrier IDWatercourse NameRoad NameStructure TypePassability Status (AS)Passability Status (AE)Number Barriers GroupTotal Habitat Gain in Set - AS (km)Total Habitat Gain in Set - AE (km)PriorityNext Steps7df79d64-77e8-42a6-af8c-f7ae4cbd5e9fSt. CroixEvangaline TrailDam003119.996.9HighBring barrier to regulator93c5a3a7-bb1c-462f-bf11-8b28f1083ea8St. CroixSalmon Hole Dam RdDam003119.996.9HighBring barrier to regulator4c4d6443-ba54-46dc-bf2c-51922ccb62ccSt. CroixSalmon Hole Dam RdDam003119.996.9HighBring barrier to regulatora90277b6-8708-43ef-a867-86827c4c698fBog BrookRail lineStream crossing - CBS0028.54.5HighEngage with barrier owner753ad5c4-da00-40d1-9cc9-fbc6cbdade4cNix BrookUnnamed logging roadStream crossing - CBS0014.32.2HighIdentify barrier ownerae23e5dd-8496-487a-9c95-eae4f63c3cfcBeaver BrookAshdale RoadStream crossing - CBS0012.11.9HighEngage with barrier owner02667d40-b792-43e6-94c0-74427481e12aHerbert RiverTrail off Beaverbank RdStream crossing - CBS0012.71.8MediumIdentify barrier owner77b3d637-21cb-4728-8548-11d5b02daf22St. CroixS Rawdon RdStream crossing - CBS0016.93.8LowLeave until end of lifecyclee4939efd-23a2-4fa7-9622-e5877d9b323cShaw BrookAvondale RoadAboiteaux0024.61.9LowEngage with partners\n\n\n\n\n\n\nTable 3.2: Rehabilitated barriers in the Maqmekwitk watershed.AS = Atlantic Salmon; AE = American Eel.\n\n\nBarrier IDWatercourse NameRoad NameAssessment Step CompleteTotal Habitat Gain in Set - AS (km)Total Habitat Gain in Set - AE (km)Next Steps5c859868-f6b5-4291-88ea-d2ed7f0ef41bBog BrookRail lineBarrier assessment0.970.72Post-rehabilitation monitoring",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Structure Prioritization</span>"
+      "Connectivity Status Results"
     ]
   },
   {
     "objectID": "content/work-planning.html",
     "href": "content/work-planning.html",
-    "title": "4  Work Planning",
+    "title": "Work Planning",
     "section": "",
-    "text": "Annual Progress Report\nBetween 2023-2024, CMM and CWF began the first iteration of the watershed connectivity planning process. After developing the first round of connectivity models, CMM and CWF co-hosted a public community outreach workshop in May 2024 at the Windsor Community Center. The workshop included a short presentation on the project progress and printed maps of the initial model outputs for interactive discussions with local knowledge holders on 1) structures in the Maqmekwitk, 2) salmon and eel movement throughout the rivers, and 3) interests/priorities from community members. One topic that was highly discussed was the 2023 floods, and the need to return to several previously assessed sites to re-assess passability status. After this workshop, CMM and CWF completed field assessments of passability status for 11 highly ranked sites, including two dams and nine stream crossings. The field results were discussed as a planning team and the annual work plan was developed in August 2024 (Table 4.1).",
+    "text": "Structure Ranking Context\nStructures are primarily ranked to inform field-assessment planning. Higher-ranked structures contribute greater potential toward habitat connectivity restoration and are therefore typically higher priorities for field assessment. They also represent key knowledge gaps with potential to significantly affect model results. Estimates of current connectivity status could improve considerably, for instance, if many high-ranking structures are passable or do not have habitat upstream. Habitat accumulation curves support decision making around how many and which structures should be assessed, by showing which structures may only minimally affect connectivity. High-ranked structures with minimal habitat upstream may be located low on these curves, because they must be addressed before benefits can be achieved by addressing lower-ranked barriers with more upstream habitat.\nIf confirmed as barriers, high-ranking structures are also often priorities for further field assessments to confirm upstream habitat before decisions are made about where fish passage should be rehabilitated.\nOnce field assessments are completed, management decisions are made for each assessed structure. An assessed structure may be excluded from the model if it is passable or there is no habitat upstream, or it may be listed as a priority barrier for fish-passage rehabilitation. Alternatively, some structures confirmed as barriers may be considered “non-actionable” because the amount and quality of habitat upstream may be low and the costs of rehabilitation may be high relative to those limited potential benefits.\nModel ranks provide only limited information on the relative value of rehabilitation among priority barriers. Ranks convey only the relative amount of habitat upstream and do not represent other factors relevant to restoration prioritization, such as habitat quality, cost, social priorities, or logistical constraints and opportunities. Deciding which priority barriers to address first is a social decision-making process that is only partially informed by model outputs. Model outputs also provide broader context about how many structures exist in the system, how many have been identified as priority barriers, and how much habitat is upstream of each relative to others.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Work Planning</span>"
+      "Work Planning"
     ]
   },
   {
-    "objectID": "content/work-planning.html#annual-work-plan",
-    "href": "content/work-planning.html#annual-work-plan",
-    "title": "4  Work Planning",
-    "section": "Annual Work Plan",
-    "text": "Annual Work Plan\n\n\n\n\nTable 4.1: 2024-2025 annual work plan for the Reconnecting our Rivers project in the Maqmekwitk watershed.\n\n\n\n\n\n\n\n\n\nTask \nTimeline \n\n\n\n\nActionable Confirmed Barriers Tasks \n\n\n\nEngage with regulators regarding Minas Basin Paper and Pulp hydroelectric dams  \nOn-going \n\n\nNix Brook culvert: Apply for funding to address confirmed barrier\nDec 2024 \n\n\nNix Brook culvert: Engage with barrier owner of the confirmed barrier  \nDec 2024 \n\n\nNix Brook culvert: Discuss cost-sharing agreement with owner, CWF, and CMM \nFeb 2025 \n\n\nNix Brook culvert: Commission engineering designs to replace or remove the culvert to restore fish passage \nMarch 2025 \n\n\nProject Planning Tasks \n\n\n\nHold various community meetings to discuss project progress and exchange information and learn about local priorities \nJan-March 2025 \n\n\nIdentify 20-30 structures to assess in the field (May-July 2025) \nMarch 2025",
+    "objectID": "content/work-planning.html#workplan",
+    "href": "content/work-planning.html#workplan",
+    "title": "Work Planning",
+    "section": "Workplan",
+    "text": "Workplan\n\nTable 2. Implementation plan for 2026-2027 to close knowledge gaps\nand advance barrier rehabilitation to improve connectivity for Plamu and\nKataq in Maqmekwitk. Steps to incorporate field data, update models, and\nrevise this WCRP are also included.Task Timeline Actionable Confirmed Barriers Tasks Engage with regulators regarding Minas Basin Paper and Pulp hydroelectric dams  On-going Nix Brook culvert: Apply for funding to address confirmed barrier  Dec 2024 Nix Brook culvert: Engage with barrier owner of the confirmed barrier  Dec 2024 Nix Brook culvert: Discuss cost-sharing agreement with owner, CWF, and CMM Feb 2025 Nix Brook culvert: Commission engineering designs to replace or remove the culvert to restore fish passage March 2025 Project Planning Tasks Hold various community meetings to discuss project progress and exchange information and learn about local priorities Jan-March 2025 Identify 20-30 structures to assess in the field (May-July 2025) March 2025",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Work Planning</span>"
+      "Work Planning"
+    ]
+  },
+  {
+    "objectID": "content/progress-reporting.html",
+    "href": "content/progress-reporting.html",
+    "title": "Progress Reporting",
+    "section": "",
+    "text": "Progress Reporting\nThis WCRP was initiated in 2023 through the collaboration of the CMM, CWF, and other members of the planning team (Table 7). Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of X structures has been assessed, and further habitat assessments were completed at X of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to X km of Plamu habitat and X km of Kataq habitat.",
+    "crumbs": [
+      "Progress Reporting"
+    ]
+  },
+  {
+    "objectID": "content/progress-reporting.html#rehabilitated-barriers",
+    "href": "content/progress-reporting.html#rehabilitated-barriers",
+    "title": "Progress Reporting",
+    "section": "Rehabilitated Barriers",
+    "text": "Rehabilitated Barriers\nIn 2023, A CN rail line and culvert were blown out from the Ellershouse floods. In 2024, CWF was able to identify that this structure was a high-ranking structure in the broader WCRP project and provided consultation to Hatch Ltd. suggesting the road be decommissioned and the stream channel be remediated. The stream channel was ultimately remediated, restoring access to 0.97 km and 1.5 km of Plamu and Kataq habitat, respectively.\n\nTable 3. Barriers to Plamu and Kataq in the Maqmekwitk watershed that\nhave been addressed (either through removal, replacement, or\nmodification to improve passage) as of May 2026. Habitat gain represents\nthe amount (km) of weighted upstream habitat that was reconnected by\nthese projects.Barrier IDWatercourse NameRoad NameAssessment Step CompleteTotal Habitat Gain in Set - AS (km)Total Habitat Gain in Set - AE (km)Next Steps5c859868-f6b5-4291-88ea-d2ed7f0ef41bBog BrookRail lineBarrier assessment0.970.72Post-rehabilitation monitoring",
+    "crumbs": [
+      "Progress Reporting"
+    ]
+  },
+  {
+    "objectID": "content/progress-reporting.html#annual-progress-report",
+    "href": "content/progress-reporting.html#annual-progress-report",
+    "title": "Progress Reporting",
+    "section": "Annual Progress Report",
+    "text": "Annual Progress Report\nSince January 2025, the following actions were completed:\n\nBarrier assessments were completed for 19 structures, resulting in 7 structures confirmed as barriers and 12 structures excluded as passable or non-existent, or because there was no habitat upstream.\nFunding was applied for to remediate 1 priority barrier but was unsuccessful.\nThe connectivity models were updated based on the above actions, and outputs were incorporated into this WCRP.",
+    "crumbs": [
+      "Progress Reporting"
+    ]
+  },
+  {
+    "objectID": "content/progress-reporting.html#priority-barriers",
+    "href": "content/progress-reporting.html#priority-barriers",
+    "title": "Progress Reporting",
+    "section": "Priority Barriers",
+    "text": "Priority Barriers\n\nTable 4.Structures in the Maqmekwitk watershed that are confirmed as\nbarriers to fish passage for Plamu and Kataq with confirmed habitat\nupstream, as of May 2026. Passability status represents the proportion\nof individuals (0, 0.25, 0.5, 0.75) that can pass upstream of a\nstructure. Habitat gain represents the amount (km) of weighted habitat\nupstream of that barrier to the next structure that will be reconnected\nfor Plamu and Kataq if that barrier is addressed. The number of\nstructures in a set represents the number of structures that must be\naddressed concurrently to maximize habitat connectivity.IDWatercourse nameRoad nameLocation/coordinatesBarrier typeBarrier ownerBarrier set identifier# barriers in setNumber of downstream barriersUpstream habitat qualityTotal habitat gain (km)Habitat gain - spawning (km)Habitat gain - rearing (km)Next stepsReason",
+    "crumbs": [
+      "Progress Reporting"
     ]
   },
   {
     "objectID": "content/references.html",
     "href": "content/references.html",
-    "title": "References",
+    "title": "Acknowledgements and References",
     "section": "",
-    "text": "Amiro, P. (1993). Habitat measurement and population estimation of\njuvenile atlantic salmon (salmo salar). Canadian Special\nPublication of Fisheries; Aquatic Sciences: Department of Fisheries;\nOceans.\n\n\nCOSEWIC. (2010). COSEWIC assessment and status report on the\natlantic salmon salmo salar (nunavik population, labrador population,\nnortheast newfoundland population, south newfoundland population,\nsouthwest newfoundland population, northwest newfoundland population,\nquebec eastern north shore population, quebec western north shore\npopulation, anticosti island population, inner st. Lawrence population,\nlake ontario population, gaspé-southern gulf of st. Lawrence population,\neastern cape breton population, nova scotia southern upland population,\ninner bay of fundy population, outer bay of fundy population) in\ncanada.\nhttps://ecprccsarstacct.z9.web.core.windows.net/files/SARAFiles/legacy/cosewic/sr_Atlantic_Salmon_2011a_e.pdf:\nECCC.\n\n\nCOSEWIC. (2012). COSEWIC assessment and status report on the\namerican eel anguilla rostrata in canada.\nhttps://ecprccsarstacct.z9.web.core.windows.net/files/SARAFiles/legacy/cosewic/sr_anguille_amer_eel_1012_e.pdf:\nECCC.\n\n\nDe Gaudemar, B., Bonzom, J. M., & Beall, E. (2000). Development and\nstability of barrier beaches on the atlantic coast of nova scotia.\nJournal of Fish Biology, 57, 502–515.\n\n\nFinstad, A. G., Armstrong, J. D., & Nislow, K. H. (2010).\nFreshwater habitat requirements of atlantic salmon (pp. 67–87).\nNorthwest Fisheries Center: Wiley-Blackwell.\n\n\nSeliger, C., & Zeiringer, B. (2018). River connectivity, habitat\nfragmentation and related restoration measures. 171–186.",
+    "text": "Recommended Citation\nRoberts, D., L. Amiro, R. Macleod, W. Richards, N. Mazany-Wright, F. Montgomery, B. Rebellato, and N. W. R. Lapointe. 2026. Stewiacke watershed connectivity restoration plan. Confederacy of Mainland Mi’kmaq. Nova Scotia, Canada.",
     "crumbs": [
-      "References"
+      "Acknowledgements and References"
     ]
   },
   {
-    "objectID": "content/supplementary-information.html",
-    "href": "content/supplementary-information.html",
-    "title": "Appendix A — Appendix A - Defining Sets",
+    "objectID": "content/references.html#acknowledgements",
+    "href": "content/references.html#acknowledgements",
+    "title": "Acknowledgements and References",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nCMM and the CWF recognize that the lands and waters that form the basis of this plan are the traditional unceded territory of the Mi’kmaw peoples. Plan development was funded by the Department of Fisheries and Ocean’s Habitat Stewardship Program for Species at Risk. Members of the planning team (Appendix B) are passionate about the conservation and restoration of freshwater ecosystems and the species they support, and contributed feedback, guidance, and knowledge. Accessibility models were inspired by fish-passage prioritization approaches developed by British Columbia’s Fish Passage Technical Working Group.",
+    "crumbs": [
+      "Acknowledgements and References"
+    ]
+  },
+  {
+    "objectID": "content/references.html#references",
+    "href": "content/references.html#references",
+    "title": "Acknowledgements and References",
+    "section": "References",
+    "text": "References\nAmiro, P. G. (1993). Habitat measurement and population estimation of juvenile Atlantic salmon (Salmo salar) (Canadian Special Publication of Fisheries and Aquatic Sciences No. 118). Department of Fisheries and Oceans.",
+    "crumbs": [
+      "Acknowledgements and References"
+    ]
+  },
+  {
+    "objectID": "content/appendix-a.html",
+    "href": "content/appendix-a.html",
+    "title": "Appendix A – Status of Structures Assessed in the Field",
     "section": "",
-    "text": "Defining Sets\nEach structure has a “gain per structure” value associated with it, which is a measure of the linear length of key habitat upstream until the next structure. Grouping structures into sets starts by taking the most downstream structure (e.g., structure A) in the stream and the next structure immediately upstream of it (e.g., structure B) and calculates the average gain per structure in that set (structure A+B/2). This process is repeated with sets increasing from two structures to five structures (e.g., structure A+B+C+D+E/5). The set with the highest average gain per structure is grouped together. Structures are left as individuals if adding a second structure reduces the average gain per structure (e.g., structure A &gt; structure A+B/2). After this set is grouped, the algorithm moves to the next structure upstream of the set and repeats the process iteratively until all structures in the stream are in a set and the entire process repeats for each stream in the network.",
+    "text": "Non-actionable Barriers\nThere were no non-actionable barriers identified through this WCRP as of 2026.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Appendix A - Defining Sets</span>"
+      "Appendix A – Status of Structures Assessed in the Field"
     ]
   },
   {
-    "objectID": "content/supplementary-information.html#field-assessment-ranking-process",
-    "href": "content/supplementary-information.html#field-assessment-ranking-process",
-    "title": "Appendix A — Appendix A - Defining Sets",
-    "section": "Field Assessment Ranking Process",
-    "text": "Field Assessment Ranking Process\nAfter all existing data and knowledge are collated for known and modelled crossings, an iterative ranking process was conducted. The ranking process is primarily used to guide field assessments and maximize efficiency in ground truthing data/knowledge inputs and model outputs, while providing a secondary purpose to evaluate the relative key habitat gains of confirmed barriers in the watershed. Field assessments can include an assessment of either the passability status of a structure (whether fish can pass upstream, and to what degree), whether the upstream habitat is suitable for the focal species, and whether there are other undocumented human-made or natural barriers upstream or downstream. First, structures are grouped into ‘sets’. Sets are identified by maximizing the key habitat gain for barriers in the same tributary system. If adding a structure to a set reduces the gain-per-barrier (i.e., the total habitat gain of the set divided by the number of barriers in the set), then it is excluded and will be considered part of another set. This results in sets ranging from one to five structures. Then, each set is ranked by its potential to contribute to restoring the overall habitat connectivity. The higher a set is ranked, the more potential contribution it makes to restoring the overall habitat connectivity, therefore making the set a higher priority for field assessment. By assessing the passability status and upstream habitat of the top-ranked sets, we close knowledge gaps with the greatest influence on the overall connectivity model results.\nSets are ranked by a combination of two factors:\n\nThe long-term potential impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating and ranking sets by the amount of total upstream key habitat (i.e., ignoring any additional upstream sets). This ranking identifies sets that would have the greatest long-term potential gain in habitat connectivity once any subsequent upstream barriers are addressed.\nThe immediate potential impact that restoring connectivity at that structure could have on the overall connectivity status. This was measured by calculating the amount of functional upstream habitat (i.e., key habitat between that set and the next upstream set of structures). Sets were then ranked by functional upstream habitat amount in tiers, where sets with no downstream sets were ranked first, then sets with one downstream set, and so on. This ranking identifies sets that have the greatest immediate potential gain in habitat by prioritizing sets that do not rely on rehabilitation of downstream or upstream sets to realize these gains.\n\nAn overall ranking for each set was produced as a composite of the long-term and immediate potential gain ranks to prioritize sets that maximize long-term and immediate potential to improve key habitat connectivity in the watershed. All structures in the watershed (excluding those confirmed as passable) were ranked and a subset of those structures were selected by the planning team to assess in the 2023 field season.",
+    "objectID": "content/appendix-a.html#data-deficient-barriers",
+    "href": "content/appendix-a.html#data-deficient-barriers",
+    "title": "Appendix A – Status of Structures Assessed in the Field",
+    "section": "Data-deficient Barriers",
+    "text": "Data-deficient Barriers\n\nTable 5. Structures in Maqmekwitk watershed that have been assessed\nfor fish passage for Plamu and Kataq as of May 2026, but either require\nan additional in-depth fish-passage assessment to confirm the\npassability status or a habitat assessment to confirm upstream habitat\nvalues.IDWatercourse nameRoad nameLocation/coordinatesAssessment step completedPassability StatusTotal habitat gain (km)Habitat gain - spawning (km)Habitat gain - rearing (km)Structure typeBarrier set identifier# of barrier in setNumber of downstream barriersNext stepsComments (external)",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Appendix A - Defining Sets</span>"
+      "Appendix A – Status of Structures Assessed in the Field"
     ]
   },
   {
-    "objectID": "content/supplementary-information.html#automatic-barrier-ranking-process",
-    "href": "content/supplementary-information.html#automatic-barrier-ranking-process",
-    "title": "Appendix A — Appendix A - Defining Sets",
-    "section": "Automatic Barrier Ranking Process",
-    "text": "Automatic Barrier Ranking Process\n\nA.0.1 Overview of Barrier Ranking\n\n\n\n\n\n\n\nParameter\nCriteria\n\n\n\n\nSet\nBarriers that are located on the same stream are grouped together. After they are grouped together, the average length of habitat gain (kms) per barrier removal is calculated.\n\n\nRanked Structure List\nA ranked structure list orders structures by amount of habitat blocked, and where removal of an individual structure or a group of structures (a “set”) is more effective in opening up habitat.\n\n\n\nA ranked structure list helps determine where structures are blocking large amounts of habitat, and where removal of an individual structure or a group of structures (a “set”) is more effective in opening up habitat, by ranking structures based on amount of habitat blocked. This list communicates to biologists and partners which barriers are the most effective to address in terms of increasing accessible habitat — useful for biologist field work planning — and to compare with a partner’s own understanding own priorities when determining the most important barriers for remediation. This considers a combination of immediate and long-term habitat gains for removal.\nDuring a FishPass model re-run, the script rank_barriers.py ranks barriers in a watershed for a given species in order of which barriers or barrier sets, when removed, would open up the best habitat upstream based on a balance of immediate and long-term habitat gains. It should be noted that this script does not rank passable barriers or barriers which do not block any upstream habitat.\nThese sets are then ranked along the same stream whose removal as a group would open up more kms of habitat than any of those structures on their own. Those sets that would have a higher average gain per barrier removal would be ranked higher than others.\n\n\nA.0.2 Ranking Barrier Sets\nBarrier sets are ranked based on a combination of immediate and long term habitat gains from removal.\nFirst the barrier sets are sorted by number of barriers downstream of the set then by average gain per barrier. This creates a list where sets with zero downstream barriers are ranked by average gain per barrier first, then sets with 1 downstream barrier, then 2, etc. There is a cutoff of habitat gains less than 500m. Such barrier sets are moved to the bottom of the entire list.\nThe barrier sets are given a rank according to this sorting giving a ranking based on immediate habitat gains from barrier set removal. In the final output, this is the column called rank_avg-gain_tiered.\nBarrier sets are separately ranked based on total upstream habitat from the set including all habitat blocked by other barrier sets upstream. This gives a ranking based on long term habitat gains from barrier set removal.\nThe immediate rank and the long term rank is then added together and the list of barrier sets is sorted by this value from lowest to highest. Then the barrier sets are re-ranked according to this combined value. This combined ranking favours sets with good immediate and long term habitat gains.\nThis combined ranking is also offered in a tiered format where barriers receive a letter grade where A is the top 10, B is 11-20, C is 21-30, and D is for all others.",
+    "objectID": "content/appendix-a.html#excluded-structures",
+    "href": "content/appendix-a.html#excluded-structures",
+    "title": "Appendix A – Status of Structures Assessed in the Field",
+    "section": "Excluded Structures",
+    "text": "Excluded Structures\n\nTable 5. Structures in Maqmekwitk watershed that are excluded from\nfurther consideration in subsequent ranking and work planning because\nthe structure is not present, is confirmed passable (e.g., bridge), or\nhas no habitat upstream for Plamu and Kataq.Barrier IDInternal NameWatercourseRoad nameAssessment Step CompletedReason for exclusionMethod of exclusion6ddf57dd-1729-4da8-9c70-c44a8e72ecbbGulf BrookUnnamed Mining RoadBarrier assessmentPassableInformal assessment5e742a29-1f44-472f-81da-8b886782c403Bog BrookATV trailBarrier assessmentNo structureInformal assessmentef47ef90-bc3f-4aae-8359-b805d3d7e5a4Nix BrookElliot RoadBarrier assessmentPassableInformal assessment1e8e5b66-d5ae-40c6-8ae4-fd0abd750c3aSt. CroixHarvest Hwy - 101Barrier assessmentPassableInformal assessment8fac537b-b36d-452e-b703-624147e2d097Nix BrookNo roadBarrier assessmentNo structureInformal assessment2495e755-7c08-48bb-a5c3-8822834b0006Nix BrookNo roadBarrier assessmentNo structureInformal assessmentcb26a1db-ca03-4c8b-950b-8d6010a2ec27St. Croix hydroelectric facilitySt. CroixNo roadBarrier assessmentNo structureInformal assessment33e1f412-5bf0-4bf6-87dd-67ceebaa3238St. Croix hydroelectric facilitySt. CroixNo roadBarrier assessmentNo structureInformal assessmentb58d2031-ad27-4763-b5ee-5c6a8a01d63cNix BrookNo roadBarrier assessmentNo structureInformal assessment",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Appendix A - Defining Sets</span>"
+      "Appendix A – Status of Structures Assessed in the Field"
     ]
   },
   {
-    "objectID": "content/wcrp-table.html",
-    "href": "content/wcrp-table.html",
-    "title": "Appendix B — Appendix B - Additional WCRP Tables",
+    "objectID": "content/appendix-b.html",
+    "href": "content/appendix-b.html",
+    "title": "Appendix B – Partners and Detailed Methods",
     "section": "",
-    "text": "Additional WCRP Tables\n\n\n\nTable B.1: Structures excluded from further consideration in subsequent ranking and work planning because they are confirmed passable (e.g., bridge), not present, or there is no key habitat upstream.\n\n\nBarrier IDInternal NameWatercourseRoad nameAssessment Step CompletedReason for exclusionMethod of exclusion6ddf57dd-1729-4da8-9c70-c44a8e72ecbbGulf BrookUnnamed Mining RoadBarrier assessmentPassableInformal assessment5e742a29-1f44-472f-81da-8b886782c403Bog BrookATV trailBarrier assessmentNo structureInformal assessmentef47ef90-bc3f-4aae-8359-b805d3d7e5a4Nix BrookElliot RoadBarrier assessmentPassableInformal assessment1e8e5b66-d5ae-40c6-8ae4-fd0abd750c3aSt. CroixHarvest Hwy - 101Barrier assessmentPassableInformal assessment8fac537b-b36d-452e-b703-624147e2d097Nix BrookNo roadBarrier assessmentNo structureInformal assessment2495e755-7c08-48bb-a5c3-8822834b0006Nix BrookNo roadBarrier assessmentNo structureInformal assessmentcb26a1db-ca03-4c8b-950b-8d6010a2ec27St. Croix hydroelectric facilitySt. CroixNo roadBarrier assessmentNo structureInformal assessment33e1f412-5bf0-4bf6-87dd-67ceebaa3238St. Croix hydroelectric facilitySt. CroixNo roadBarrier assessmentNo structureInformal assessmentb58d2031-ad27-4763-b5ee-5c6a8a01d63cNix BrookNo roadBarrier assessmentNo structureInformal assessment",
+    "text": "Partners\nTable 7. Maqmekwitk WCRP planning team members. Planning team members\ncontributed to the development of this plan by participating in scoping\nand planning meetings, and reviewing documents and data.NameOrganizationBetty RebellatoCanadian Wildlife FederationNick Mazany-WrightCanadian Wildlife FederationNicolas LapointeCanadian Wildlife FederationSarah SraCanadian Wildlife FederationColin McGregorDepartment of Fisheries and Oceans CanadaGuy ScharfDepartment of Fisheries and Oceans CanadaThomas GristeyDepartment of Fisheries and Oceans CanadaSimon NorrisHillcrest GeographicsBrian EnglundHorsefly River RoundtableHelen EnglundHorsefly River RoundtableJudy HillabyHorsefly River RoundtableMike RamsayMinistry of Forests, Lands and Natural Resource OperationsKate HewittNorthern Shuswap Tribal CouncilEdna BostonSoda Creek Indian BandMike StinsonSoda Creek Indian BandJohn WalkerWilliams Lake First NationNishitha SingiWilliams Lake First NationJosh NoseworthyGlobal Conservation Solutions",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Appendix B - Additional WCRP Tables</span>"
+      "Appendix B – Partners and Detailed Methods"
     ]
   },
   {
-    "objectID": "content/appendix-c.html",
-    "href": "content/appendix-c.html",
-    "title": "Appendix C — Appendix C - Data Downloads",
-    "section": "",
-    "text": "Data Downloads\nComing Soon!",
+    "objectID": "content/appendix-b.html#detailed-methods",
+    "href": "content/appendix-b.html#detailed-methods",
+    "title": "Appendix B – Partners and Detailed Methods",
+    "section": "Detailed Methods",
+    "text": "Detailed Methods\nFor details about accessibility, habitat, or connectivity models including structure-ranking methods, see detailed documentation for for NSFishPass here:NSFishPass GitHub",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Appendix C - Data Downloads</span>"
+      "Appendix B – Partners and Detailed Methods"
     ]
   }
 ]

@@ -1,6 +1,4 @@
 ```{python echo=FALSE}
-import python.api_calls as api
-import pandas as pd
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -10,8 +8,6 @@ warnings.filterwarnings('ignore')
 #| echo: false
 
 library(reticulate)
-api <- import("python.api_calls")
-gain <- api$gain
 
 source("Rscripts/table_formatting.R")
 
