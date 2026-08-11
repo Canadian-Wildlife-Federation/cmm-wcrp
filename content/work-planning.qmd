@@ -20,17 +20,4 @@ Model ranks provide only limited information on the relative value of rehabilita
 
 ## Workplan {-}
 
-```{r workplan, echo = FALSE, results = 'asis'}
-#| label: table-2
-#| tbl-cap: "Table 2. Implementation plan for 2026-2027 to close knowledge gaps and advance barrier rehabilitation to improve connectivity for Plamu and Kataq in Maqmekwitk. Steps to incorporate field data, update models, and revise this WCRP are also included."
-#| echo: false
-source("Rscripts/table_formatting.R")
-library("flextable")
-
-data <- read.csv("data/work-plan.csv", check.names=FALSE)
-ft <- flextable(data)
-ft <- format_flextable(ft)
-ft
-
-
-```
+There is no active workplan for 2026-2027.
