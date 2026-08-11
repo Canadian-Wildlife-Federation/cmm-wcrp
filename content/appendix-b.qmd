@@ -8,7 +8,7 @@
 #| tbl-cap: "Table 7. Maqmekwitk WCRP planning team members. Planning team members contributed to the development of this plan by participating in scoping and planning meetings, and reviewing documents and data."
 #| warning: false
 source("Rscripts/table_formatting.R")
-data <- read.csv("data/planning_team.csv", check.names=FALSE)
+data <- read.csv("data/StCroix_OnlineWCRPTables_May2026(Table7_PArtners).csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft

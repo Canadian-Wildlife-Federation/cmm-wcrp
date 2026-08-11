@@ -12,7 +12,7 @@ There were no non-actionable barriers identified through this WCRP as of 2026.
 source("Rscripts/table_formatting.R")
 library("flextable")
 
-data <- read.csv("data/assessed_data_deficient_structures_table.csv", check.names=FALSE)
+data <- read.csv("data/StCroix_OnlineWCRPTables_May2026(Table5_DD).csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft
@@ -28,7 +28,7 @@ ft
 source("Rscripts/table_formatting.R")
 library("flextable")
 
-data <- read.csv("data/excluded_structures_table.csv", check.names=FALSE)
+data <- read.csv("data/StCroix_OnlineWCRPTables_May2026(Table6_Excluded).csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft

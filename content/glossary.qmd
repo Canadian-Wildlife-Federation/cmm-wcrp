@@ -18,7 +18,7 @@ A set of two or more structures that must be addressed/considered together to ac
 Structures that pass some individuals but not all. This includes structures that are passable only during certain seasons or flow conditions, structures that pass certain species or life stages but not others, or structures that only a subset of similar individuals typically pass. 
 
 ### Current connectivity status {-}
- the measure (i.e., amount, proportion, or index) of habitat that is currently connected for each focal species, assuming that all unassessed structures are barriers. 
+The measure (i.e., amount, proportion, or index) of habitat that is currently connected for each focal species, assuming that all unassessed structures are barriers. 
 
 ### Rank {-}
 The relative importance of a structure (individually and/or in sets) based on the amount (km) of habitat blocked by it. For sets of structures, the total amount of habitat blocked by the set is averaged by the number of barriers in the set.  

@@ -2,7 +2,7 @@
 
 ## Progress Reporting {-}
 
-This WCRP was initiated in 2023 through the collaboration of the CMM, CWF, and other members of the planning team (Table 7). Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of X structures has been assessed, and further habitat assessments were completed at X of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to X km of Plamu habitat and X km of Kataq habitat. 
+This WCRP was initiated in 2023 through the collaboration of the CMM, CWF, and other members of the planning team (Table 7). Since then, several planning and scoping meetings were held with the planning team, as well as a public community outreach workshop in May 2024 to gather local interest/priorities and knowledge of the system to refine initial models. The passability of 36 structures has been assessed, and further habitat assessments were completed at 0 of these. Fish passage has been rehabilitated at 1 barrier, resulting in improved or restored access to 0.97 km of Plamu habitat and 1.5 km of Kataq habitat. 
 
 ## Rehabilitated Barriers {-}
 
@@ -40,7 +40,7 @@ Since January 2025, the following actions were completed:
 source("Rscripts/table_formatting.R")
 library("flextable")
 
-data <- read.csv("data/priority_barriers_for_rehabilitation_table.csv", check.names=FALSE)
+data <- read.csv("data/StCroix_OnlineWCRPTables_May2026(Table4_PriorityBarriers).csv", check.names=FALSE)
 ft <- flextable(data)
 ft <- format_flextable(ft)
 ft
