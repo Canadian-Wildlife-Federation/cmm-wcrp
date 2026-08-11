@@ -1,23 +1,23 @@
-Barrier ID,Site Name ,Structure Type ,Reason for Exclusion ,Notes,
-6ddf57dd-1729-4da8-9c70-c44a8e72ecbb,Gulf Brook at Unnamed Mining Road,Bridge,Passable,Steel Bridge; seems relatively new. Site is tricky to get to (mining roads),
-ef47ef90-bc3f-4aae-8359-b805d3d7e5a4,Nix Brook at Elliot Road,Bridge,Passable,Log bridge; no passability concerns,
-0031d2d8-c13c-4f5d-838f-c726049db362,Herbert River at Vaughn Rd,Bridge,Passable,"CMM 2025 Data: Bridge, fine condition, no fish passage issues at all",
-79aad1a7-6f23-40ac-9936-d5b34dee9ed7,DS of Long Lake E of Eliott Rd,Bridge,Passable,"CMM 2025 Data: Old bridge, not a barrier to fish passage. Otters in area. Dead wood in stream near structure. In high water stream it’ll bypass the bridge.",
-b6b82be7-c065-4f99-be33-921cb2444830,Dawson Brook at HAN 101-01,Bridge,Passable,"CMM 2015 Data: Bridge, not a barrier to fish passage. Rock sills under bridge, could cause problems in extreme low water. Beaver activity upstream. Natural differ log upstream. Beaver dam downstream. Could be an issue in low water. CMM 2025 Data: Bridge, no barrier to fish passage. Salmon habitat and spawning habitat upriver is accessible.",
-b46b0331-9d7f-4b43-b043-beb7bdd73121,DS Meek Arm Lake at Trail,Bridge,Passable,"CMM 2025 Data: Bridge, no barrier to fish passage, lots of clearance from water. Silt fence left behind after construction, looks like healthy riparian area is good. ",
-cb757f45-19e8-475b-b2fe-dc9c3a3ed314,DS Laws Lake at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge, not barrier to fish passage",
-adecf1c2-0ea1-4662-914d-e79d2edec810,Bog Brook at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge washed out, there is debris under the remaining bridge deck however currently not hindering fish passage, definite salmon habitat upstream. ATVs using alternate crossing through brook (created a ford)",
-55b44696-a55f-4a5e-be06-6c9b726bef41,Dawson Brook at Dryweather Rd,Bridge,Passable,"CMM 2025 Data: Bridge, no barrier to fish passage. Salmon habitat and spawning habitat upriver is accessible.�",
-30d0a5b4-98ab-4cbe-a7be-0829a66cbc82,Weir Brook at Collier Rd,Bridge,Passable,"CMM 2025 Data: Crossing type is a bridge. Not a barrier to fish passage. 30 feet off the water is a bridge deck, almost all bedrock and >50% stream shade.",
-a70a5ed2-2250-4222-a9b6-7ba296bfdaf5,Nix Brook trib at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge, not a barrier to fish passage. No issues.",
-270ba223-8c8e-4703-9325-bca62d1014c2,Nix Brook trib at Unnamed Track 2,Bridge,Passable,"CMM 2025 Data:  Bridge, no barrier",
-ed49ac46-7d75-42cc-97ed-d3a4166fca98,US of Bog Brook at Williams Rd,Bridge,Passable,"CMM 2025 Data: Temporary bridge currently being worked on likely not complete. An attempt was made at creating pool habitat upstream, poorly done, lots of barriers. Essentially manmade brook now, very odd situation",
-5e742a29-1f44-472f-81da-8b886782c403,Bog Brook at ATV Trail,Ford,Passable,"There used to be a bridge present here but it was washed out in the 2023 floods. This is now a ford that is actively being used as an ATV trail (atvans.org), but will work with them to replace the bridge",
-33e1f412-5bf0-4bf6-87dd-67ceebaa3238,Near St. Croix hydroelectric facility,None,No structure,,
-cb26a1db-ca03-4c8b-950b-8d6010a2ec27,Near St. Croix hydroelectric facility,None,No structure,,
-eeb0e57b-41cc-409b-88d3-934519cba9a7,Nix Brook at No Road,None,No structure,No structure present,
-7d9edca7-34ff-4a04-a7f6-1dd53132370e,Nix Brook at No Road 2,None,No structure,Photos sent from Wagner Forestry - no crossing,
-2d10b6c7-5ed0-4394-ad64-05634d2322cf,Nix Brook at No Road 3,None,No structure,"Log bridge previously there, was washed out and now on shore, should probably be cut up by chain saw to avoid any debris build up in future",
-ae23e5dd-8496-487a-9c95-eae4f63c3cfc,Beaver Brook at Ashdale Road,Stream crossing - CBS,Passable,"CMM 2025 Data: 3 circular culverts, one concrete, 2 steel. Fish passage for sure. No perch, only 2/3 pass water now but 3rd just is for high water levels.",
-18fc6735-b579-4933-82e7-a4a753575f8d,St. Croix River at Harvest Hwy - 101,Stream crossing - CBS,Passable,Open bottom double box culvert with a notched baffle at the inlet of the river left opening.,
-643f69ce-d3c5-4283-a54d-a4d70c9688c9,Weir Brook trib at HW 215 2,Stream crossing - CBS,Passable,Debris jam clearing,"CMM 2025 Data: 2 box culverts (wooden), upstream river left clogged, river right lower elevation flowing not strong flow; Add to excluded structures list, flag site for follow up action to remove blockage; Reason: passable with debris jam fixed."
+Barrier ID,Site Name ,Structure Type ,Reason for Exclusion ,Notes
+6ddf57dd-1729-4da8-9c70-c44a8e72ecbb,Gulf Brook at Unnamed Mining Road,Bridge,Passable,Steel Bridge; seems relatively new. Site is tricky to get to (mining roads)
+ef47ef90-bc3f-4aae-8359-b805d3d7e5a4,Nix Brook at Elliot Road,Bridge,Passable,Log bridge; no passability concerns
+0031d2d8-c13c-4f5d-838f-c726049db362,Herbert River at Vaughn Rd,Bridge,Passable,"CMM 2025 Data: Bridge, fine condition, no fish passage issues at all"
+79aad1a7-6f23-40ac-9936-d5b34dee9ed7,DS of Long Lake E of Eliott Rd,Bridge,Passable,"CMM 2025 Data: Old bridge, not a barrier to fish passage. Otters in area. Dead wood in stream near structure. In high water stream it’ll bypass the bridge."
+b6b82be7-c065-4f99-be33-921cb2444830,Dawson Brook at HAN 101-01,Bridge,Passable,"CMM 2015 Data: Bridge, not a barrier to fish passage. Rock sills under bridge, could cause problems in extreme low water. Beaver activity upstream. Natural differ log upstream. Beaver dam downstream. Could be an issue in low water. CMM 2025 Data: Bridge, no barrier to fish passage. Salmon habitat and spawning habitat upriver is accessible."
+b46b0331-9d7f-4b43-b043-beb7bdd73121,DS Meek Arm Lake at Trail,Bridge,Passable,"CMM 2025 Data: Bridge, no barrier to fish passage, lots of clearance from water. Silt fence left behind after construction, looks like healthy riparian area is good. "
+cb757f45-19e8-475b-b2fe-dc9c3a3ed314,DS Laws Lake at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge, not barrier to fish passage"
+adecf1c2-0ea1-4662-914d-e79d2edec810,Bog Brook at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge washed out, there is debris under the remaining bridge deck however currently not hindering fish passage, definite salmon habitat upstream. ATVs using alternate crossing through brook (created a ford)"
+55b44696-a55f-4a5e-be06-6c9b726bef41,Dawson Brook at Dryweather Rd,Bridge,Passable,"CMM 2025 Data: Bridge, no barrier to fish passage. Salmon habitat and spawning habitat upriver is accessible."
+30d0a5b4-98ab-4cbe-a7be-0829a66cbc82,Weir Brook at Collier Rd,Bridge,Passable,"CMM 2025 Data: Crossing type is a bridge. Not a barrier to fish passage. 30 feet off the water is a bridge deck, almost all bedrock and >50% stream shade."
+a70a5ed2-2250-4222-a9b6-7ba296bfdaf5,Nix Brook trib at Unnamed Track,Bridge,Passable,"CMM 2025 Data: Bridge, not a barrier to fish passage. No issues."
+270ba223-8c8e-4703-9325-bca62d1014c2,Nix Brook trib at Unnamed Track 2,Bridge,Passable,"CMM 2025 Data:  Bridge, no barrier"
+ed49ac46-7d75-42cc-97ed-d3a4166fca98,US of Bog Brook at Williams Rd,Bridge,Passable,"CMM 2025 Data: Temporary bridge currently being worked on likely not complete. An attempt was made at creating pool habitat upstream, poorly done, lots of barriers. Essentially manmade brook now, very odd situation"
+5e742a29-1f44-472f-81da-8b886782c403,Bog Brook at ATV Trail,Ford,Passable,"There used to be a bridge present here but it was washed out in the 2023 floods. This is now a ford that is actively being used as an ATV trail (atvans.org), but will work with them to replace the bridge"
+33e1f412-5bf0-4bf6-87dd-67ceebaa3238,Near St. Croix hydroelectric facility,None,No structure,
+cb26a1db-ca03-4c8b-950b-8d6010a2ec27,Near St. Croix hydroelectric facility,None,No structure,
+eeb0e57b-41cc-409b-88d3-934519cba9a7,Nix Brook at No Road,None,No structure,No structure present
+7d9edca7-34ff-4a04-a7f6-1dd53132370e,Nix Brook at No Road 2,None,No structure,Photos sent from Wagner Forestry - no crossing
+2d10b6c7-5ed0-4394-ad64-05634d2322cf,Nix Brook at No Road 3,None,No structure,"Log bridge previously there, was washed out and now on shore, should probably be cut up by chain saw to avoid any debris build up in future"
+ae23e5dd-8496-487a-9c95-eae4f63c3cfc,Beaver Brook at Ashdale Road,Stream crossing - CBS,Passable,"CMM 2025 Data: 3 circular culverts, one concrete, 2 steel. Fish passage for sure. No perch, only 2/3 pass water now but 3rd just is for high water levels."
+18fc6735-b579-4933-82e7-a4a753575f8d,St. Croix River at Harvest Hwy - 101,Stream crossing - CBS,Passable,Open bottom double box culvert with a notched baffle at the inlet of the river left opening.
+643f69ce-d3c5-4283-a54d-a4d70c9688c9,Weir Brook trib at HW 215 2,Stream crossing - CBS,Passable,"Debris jam clearing,""CMM 2025 Data: 2 box culverts (wooden), upstream river left clogged, river right lower elevation flowing not strong flow; Add to excluded structures list, flag site for follow up action to remove blockage; Reason: passable with debris jam fixed."""
