@@ -44,3 +44,18 @@ In the Maqmekwitk watershed, 176 structures potentially disconnect Kataq habitat
 
 ![Figure 6: Habitat Accumulation Curve (HAC) showing the top 20 ranked structures (n=31) in the Maqmekwitk watershed that potentially block Kataq habitat, and are labelled in Figure 2, as of May 2026. Structures are ranked based on how much (km) weighted habitat for Kataq is upstream. The y-axis represents the cumulative amount of potential habitat gain (km), down-weighted by 25% for second-order streams, and by passability (25%, 50%, or 75%) of partial barriers. Habitat upstream of unassessed structures is considered disconnected until field assessments are completed. Structures that were excluded as passable are not shown. Sets of structures are indicated by a grey line below the curve, indicating that gains from addressing the downstream structure alone would be less than the combined gains from addressing all structures in the set.  ](images/Figure 6.png){fig-cap-location="top"} 
 
+## Habitat Accumulation Summary Table {-}
+
+```{r table1, echo = FALSE, results = 'asis'}
+#| label: table-1
+#| tbl-cap: "Table 1: Labelled structures in the Habitat Accumulation Curve (Figure 4 and 6), their rank, and weighted upstream habitat for Plamu and Kataq in Maqmekwitk watershed. Habitat gain (averaged across sets) represents the amount (km) of weighted habitat upstream of that structure to the next structure and depicts the potential gain in habitat if passage at that structure was restored."
+#| warning: false
+#| echo: false
+source("Rscripts/table_formatting.R")
+library("flextable")
+
+data <- read.csv("data/StCroix_OnlineWCRPTables_May2026(Table1_EelSalmon).csv", check.names=FALSE)
+ft <- flextable(data)
+ft <- format_flextable(ft)
+ft
+```
